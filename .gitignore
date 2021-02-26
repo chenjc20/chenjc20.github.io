@@ -1,5 +1,8 @@
-_site
+.idea
+.DS_Store
 .sass-cache
-.jekyll-metadata
-node_modules/
-yarn.lock
+Gemfile.lock
+package-json.lock
+_site
+node_modules
+_drafts
