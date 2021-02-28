@@ -1,14 +1,35 @@
 <!-- Clients -->
-  <section class="py-5" id="{{ site.data.sitetext.clients.section | default: "clients" }}">
+  <section class="page-section" id="{{ site.data.sitetext.clients.section | default: "clients" }}">
     <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.clients.title | default: "About Us" }}</h2>
+          <h3 class="section-subheading text-muted">{{ site.data.sitetext.clients.text | default: "" }}</h3>
+        </div>
+      </div>
       <div class="row" {% if site.data.sitetext.clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
-	  {% for client in site.data.sitetext.clients.list %}
+	    {% for client in site.data.sitetext.clients.conferences %}
         <div class="col-md-3 col-sm-6">
           <a href="{{ client.url }}">
             <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.clients.max-height | default: "100px" }}">
           </a>
         </div>
-	  {% endfor %}
+	    {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase" style="height: 50px;">{{ " " }}</h2>
+          <h3 class="section-subheading text-muted">{{ site.data.sitetext.clients.subtext | default: "" }}</h3>
+        </div>
+      </div>
+      <div class="row" {% if site.data.sitetext.clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
+        {% for client in site.data.sitetext.clients.journals %}
+          <div class="col-md-3 col-sm-6">
+            <a href="{{ client.url }}">
+              <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.clients.max-height | default: "100px" }}">
+            </a>
+          </div>
+        {% endfor %}
       </div>
     </div>
   </section>

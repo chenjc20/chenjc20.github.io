@@ -12,33 +12,25 @@
           <ul class="timeline">
       {%- assign align = site.data.sitetext.timeline.start_align -%}
       {%- for event in site.data.sitetext.timeline.events -%}
-            {%- if align == "right" -%}
-              {%- if event.align and event.align == "left" -%}
-                {%- assign align = "right" -%}
-                <li>
-              {%- else -%}
-                {%- assign align = "left" %}
-                <li class="timeline-inverted">
-              {% endif %}
-            {% else %}
-              {%- if event.align and event.align == "right" -%}
                 {%- assign align = "left" -%}
-                <li class="timeline-inverted">
-              {%- else -%}
-                {%- assign align = "right" %}
-                <li>
-              {% endif %}
-            {%- endif -%}
+            <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+                <h4>{{ event.year | markdownify }}</h4>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>{{ event.year | markdownify }}</h4>
-                  <h4 class="subheading">{{ event.title }}</h4>
+                  <div class="subheading">
+                    <h5 style="display: inline;">{{ event.title }}</h5>
+                    <h6 style="display: inline;margin-left: 10px;">
+                      <a href="{{ event.link }}" style="color:dodgerblue;">[PDF]</a>
+                    </h6>
+                  </div>
+                </div>
+                <div class="timeline-heading">
+                  <div class="text-muted">{{ event.auth | markdownify }}</div>
                 </div>
                 <div class="timeline-body">
-                  <div class="text-muted">{{ event.desc | markdownify }}</div>
+                  <h7>{{ event.desc | markdownify }}</h7>
                 </div>
               </div>
             </li>

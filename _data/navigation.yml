@@ -1,18 +1,18 @@
 nav:
-  - title: "Services"
+  - title: "RESEARCH"
     section: services
 
-  - title: "Portfolio"
+  - title: "COURSES"
     section: portfolio
     
-  - title: "About"
+  - title: "Publications"
     section: timeline
 
-  - title: "Team"
+  - title: "Advisees"
     section: team
 
-  - title: "Contact"
-    section: contact
+  - title: "RESOURCES"
+    section: clients
 
-  - title: "Theme Source"
-    url: https://github.com/raviriley/agency-jekyll-theme/
+  - title: "Join Us"
+    url: "gyzh@tsinghua.edu.cn"

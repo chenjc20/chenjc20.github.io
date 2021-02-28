@@ -1,140 +1,174 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    name: "Guangyan Zhang"
+    title: "Associate Professor"
+    depart1: "Computer Science and Technology"
+    link1: http://www.cs.tsinghua.edu.cn/
+    depart2: "Tsinghua University"
+    link2: https://www.tsinghua.edu.cn/
+    addr: "Room 8-208, East Main Building,Tsinghua University, Beijing,P.R.China. 100084"
+    email: "Email: gyzh@tsinghua.edu.cn"
+    img: assets/img/team/zgy.jpg
+    desc: "**Guangyan Zhang** is an associate professor in the Department of Computer Science and Technology, where he joined since July 2008. He obtained his Ph.D degree from Tsinghua University under the guidance of **Prof. Weimin Zheng** and **Prof. Jiwu Shu**. Before that, he received the bachelor's and master's degrees in computer science from Jilin University in 2000 and 2003. He is a Professional Member of the ACM, a member of **the CCF technical committee of information storage technology**, a Communication Member of **CCF Task Force on Big Data**."
 
 services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Research"
+    text: "Current research focuses on **Big Data Computing**, **Storage Systems**, and **Distributed Systems**, especially in:"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Cloud Storage"
+        desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
+        icon: fas fa-shopping-cart
+      - title: "RAID and Erasure Codes"
+        desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
         icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      - title: "[Flash and PCM Storage](http://storage.cs.tsinghua.edu.cn/)"
+        desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown
+      - title: "Storage Virtualization"
+        desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
+        icon: fas fa-shopping-cart
+      - title: "Distributed File Systems"
+        desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
+        icon: fas fa-laptop       
+      - title: "[Deep Learning](http://storage.cs.tsinghua.edu.cn/)"
+        desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown
+      - title: "Graph Computing"
+        desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
+        icon: fas fa-shopping-cart
+      - title: "Stream Computing"
+        desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
+        icon: fas fa-laptop       
+      - title: "[Benchmarking](http://storage.cs.tsinghua.edu.cn/)"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
 
 portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Courses"
+    text: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students"
     section: portfolio
     closebutton: "Close Project"
     
 
 timeline:
-    title: "About" 
-    text: "Lorem ipsum timeline"
+    title: "Publications" 
+    text: "Selected publications include:"
     section: timeline
-    # left is the default
-    #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt: 
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt: 
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt: 
-        # you can enforce the aligment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+      - title: "FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays"
+        year: "2021"
+        auth: "Tianyang Jiang, **Guangyan Zhang**,Zican Huang, Xiaosong Ma, Junyu Wei, Zhiyue Li, Weimin Zheng."
+        desc: "In the Proceedings of the 19th USENIX Conference on File and Storage Technologies **(FAST'21)**, Santa Clara, CA, February 2021. Pages 355-370."
+        link: https://www.usenix.org/conference/fast21/presentation/jiang
+        image: 
+      - title: "FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays"
+        year: "2021"
+        auth: "Tianyang Jiang, **Guangyan Zhang**,Zican Huang, Xiaosong Ma, Junyu Wei, Zhiyue Li, Weimin Zheng."
+        desc: "In the Proceedings of the 19th USENIX Conference on File and Storage Technologies **(FAST'21)**, Santa Clara, CA, February 2021. Pages 355-370."
+        link: https://www.usenix.org/conference/fast21/presentation/jiang
+        image:
+      - title: "FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays"
+        year: "2021"
+        auth: "Tianyang Jiang, **Guangyan Zhang**,Zican Huang, Xiaosong Ma, Junyu Wei, Zhiyue Li, Weimin Zheng."
+        desc: "In the Proceedings of the 19th USENIX Conference on File and Storage Technologies **(FAST'21)**, Santa Clara, CA, February 2021. Pages 355-370."
+        link: https://www.usenix.org/conference/fast21/presentation/jiang
+        image:
+      - title: "FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays"
+        year: "2021"
+        auth: "Tianyang Jiang, **Guangyan Zhang**,Zican Huang, Xiaosong Ma, Junyu Wei, Zhiyue Li, Weimin Zheng."
+        desc: "In the Proceedings of the 19th USENIX Conference on File and Storage Technologies **(FAST'21)**, Santa Clara, CA, February 2021. Pages 355-370."
+        link: https://www.usenix.org/conference/fast21/presentation/jiang
+        image:
 
 about:
     title: "About Us"
-    text: "our story"
+    text: "Publications"
     section: about
 
 clients:
+    title: "Resources"
+    text: "The top conferences in his concern"
+    subtext: "The top journals in his concern"
     section: clients
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
+    conferences:
+      - title: "USENIX"
+        url: https://www.usenix.org/conferences
+        logo: assets/img/clients/usenix.svg
+      - title: "FAST"
+        url: https://www.usenix.org/conference/fast20
+        logo: assets/img/clients/fast20_logo_yellow_400x160.png
+      - title: "OSDI"
+        url: https://www.usenix.org/conference/osdi20
+        logo: assets/img/clients/osdi20_logo_yellow_350.png
       - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+        url: https://www.usenix.org/conference/atc19
+        logo: assets/img/clients/atc19_logo_wordmark_300x150.png
+    journals:
+      - title: "ACM Transactions on Storage"
+        url: https://dl.acm.org/journal/tos
+        logo: assets/img/clients/acm.png
+      - title: "IEEE Transactions on Computers"
+        url: https://www.computer.org/csdl/journal/tc
+        logo: assets/img/clients/IEEE.png
     
 team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Advisees"
+    text: "Current Students"
+    text2: "Alumni"
+    subtext: Several doctoral and master degree positions are available for applicants each year. If you’re interested in our research fields, please feel free to contact Prof. Guangyan Zhang via Email.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "Tianyang Jiang"
+        role: "Ph.D."
         image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-          
-contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
-    section: contact
+      - name: "Junyu Wei"
+        role: "Ph.D."
+        image: assets/img/team/2.jpg
+      - name: "Qinglin Yang"
+        role: "Ph.D."
+        image: assets/img/team/2.jpg
+      - name: "Zhiyue Li"
+        role: "Master"
+        image: assets/img/team/2.jpg
+      - name: "Junchao Chen"
+        role: "Master"
+        image: assets/img/team/2.jpg
+      - name: "Hanyu He"
+        role: "Master"
+        image: assets/img/team/2.jpg
+      - name: "Qi Wu"
+        role: "Master"
+        image: assets/img/team/2.jpg
+      - name: "Yun Teng"
+        role: "Master"
+        image: assets/img/team/2.jpg
+      - name: "Shaobu Wang"
+        role: "Ph.D."
+        image: assets/img/team/2.jpg
+      - name: "Shipeng Hu"
+        role: "Ph.D."
+        image: assets/img/team/2.jpg
+    alumnis:
+      - name: "Qing Xia"
+        role: "Ph.D."
+      - name: "Qing Xia"
+        role: "Ph.D."
+      - name: "Qing Xia"
+        role: "Ph.D."
+      - name: "Qing Xia"
+        role: "Ph.D."
+      - name: "Qing Xia"
+        role: "Ph.D."
     
 footer:
-    legal: "Privacy Policy"
+    legal: "Room 8-207, East Main Building, Tsinghua University, Bejing, 10084, China."
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"  
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+      - url: https://www.tsinghua.edu.cn/
+        icon: assets/img/THU.jpg
+      - url: http://www.cs.tsinghua.edu.cn/
+        icon: assets/img/THU_CS.jfif
 
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
