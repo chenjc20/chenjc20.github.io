@@ -1,6 +1,6 @@
 header:
-    name: "Guangyan Zhang"
-    title: "Associate Professor"
+    name: "THU HPC"
+    title: "welcome"
     depart1: "Computer Science and Technology"
     link1: http://www.cs.tsinghua.edu.cn/
     depart2: "Tsinghua University"
@@ -112,7 +112,18 @@ clients:
       - title: "IEEE Transactions on Computers"
         url: https://www.computer.org/csdl/journal/tc
         logo: assets/img/clients/IEEE.png
+
+faculty: 
+    title: "Faculty"
+    text: "If you’re interested in our research fields."
     
+    section: faculty
+    people:
+      - name: "Guangyan Zhang"
+        role: "Associate Professor"
+        desc: "Computer Science and Technology."
+        image: assets/img/team/2.jpg
+        link: "_posts/personalhomepages/2021-03-03-zhangguangyan.md"
 team:
     title: "Advisees"
     text: "Current Students"
@@ -123,9 +134,11 @@ team:
       - name: "Tianyang Jiang"
         role: "Ph.D."
         image: assets/img/team/2.jpg
+        link: "_posts/personalhomepages/2017-04-06-jiangtianyang.md"
       - name: "Junyu Wei"
         role: "Ph.D."
         image: assets/img/team/2.jpg
+        link: "_posts/personalhomepages/2017-04-06-weijunyu.md"
       - name: "Qinglin Yang"
         role: "Ph.D."
         image: assets/img/team/2.jpg
@@ -135,6 +148,7 @@ team:
       - name: "Junchao Chen"
         role: "Master"
         image: assets/img/team/2.jpg
+        link: "_posts/personalhomepages/2017-04-06-chenjunchao.md"
       - name: "Hanyu He"
         role: "Master"
         image: assets/img/team/2.jpg

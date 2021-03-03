@@ -36,24 +36,15 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="main-person">
-              <img class="mx-auto rounded-circle" src="{{ site.data.sitetext.header.img }}" alt="">
-            </div>
-          </div>
-          <div class="col-sm-8" style="text-align: left;">
-            <h6>
-            {{ site.data.sitetext.header.title | markdownify }}
-            <a href="{{ site.data.sitetext.header.link1 }}" style="color:white;">{{ site.data.sitetext.header.depart1 | markdownify }}</a>
-            <a href="{{ site.data.sitetext.header.link2 }}" style="color:white;">{{ site.data.sitetext.header.depart2 | markdownify }}</a>
-            {{ site.data.sitetext.header.addr | markdownify }}
-            <a href="mailto:{{ site.data.sitetext.header.email }}" style="color:white;">
-              {{ site.data.sitetext.header.email | markdownify }}
-            </a>
-            </h6>
-          </div>
-        </div>
+	  {%- if site.data.sitetext.header.title -%}
+        <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
+	  {%- endif -%}
+	  {%- if site.data.sitetext.header.text -%}
+        <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
+	  {%- endif -%}
+	  {%- if site.data.sitetext.header.button -%}
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
+	  {%- endif -%}
       </div>
     </div>
   </header>
