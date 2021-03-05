@@ -285,25 +285,21 @@ clients:
         logo: assets/img/clients/acm.png
       - title: "IEEE Transactions on Computers"
         url: https://www.computer.org/csdl/journal/tc
-        logo: assets/img/clients/IEEE.png
-
-faculty: 
-    title: "Faculty"
-    text: "If you’re interested in our research fields."
-    section: faculty
-    people:
-      - name: "Guangyan Zhang"
-        role: "Associate Professor"
-        desc: "Computer Science and Technology."
-        image: assets/img/team/2.jpg
-        link: "_posts/personalhomepages/2021-03-03-zhangguangyan.md"        
+        logo: assets/img/clients/IEEE.png   
 
 team:
     title: "Advisees"
+    subtitle: "Faculty"
     text: "Current Students"
     text2: "Alumni"
     subtext: Several doctoral and master degree positions are available for applicants each year. If you’re interested in our research fields, please feel free to contact Prof. Guangyan Zhang via Email.
     section: team
+    faculty:
+      - name: "Guangyan Zhang"
+        role: "Associate Professor"
+        desc: "Computer Science and Technology."
+        image: assets/img/team/2.jpg
+        link: "_posts/personalhomepages/2021-03-03-zhangguangyan.md" 
     people:
       - name: "Tianyang Jiang"
         role: "Ph.D."

@@ -3,24 +3,23 @@
 <div class="container">
   <div class="row">
 	<div class="col-lg-12 text-center">
-	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.faculty.title }}</h2>
-	  <h3 class="section-subheading text-muted">{{ site.data.sitetext.faculty.text }}</h3>
+	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.subtitle }}</h2>
 	</div>
   </div>
   <div class="row">
-  {% for person in site.data.sitetext.faculty.people %}
+  {% for teacher in site.data.sitetext.team.faculty %}
 	<div class="col-sm-12">
 	  <div class="team-member-big">
-		{% if person.link %}
-		<a href="{% link {{person.link}} %}">
-			<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+		{% if teacher.link %}
+		<a href="{% link {{teacher.link}} %}">
+			<img class="mx-auto rounded-circle" src="{{ teacher.image }}" alt="">
 		</a>
 		{% else %}
-		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+		<img class="mx-auto rounded-circle" src="{{ teacher.image }}" alt="">
 		{% endif %}
-		<h5>{{ person.name }}</h5>
-		<p class="text-muted">{{person.role}}</p>
-		<p class="text-muted">{{person.desc}}</p>
+		<h5>{{ teacher.name }}</h5>
+		<p class="text-muted">{{teacher.role}}</p>
+		<p class="text-muted">{{teacher.desc}}</p>
 	  </div>
 	</div>
   {% endfor %}
