@@ -299,7 +299,7 @@ team:
         role: "Associate Professor"
         desc: "Computer Science and Technology."
         image: assets/img/team/2.jpg
-        link: "_posts/personalhomepages/2021-03-03-zhangguangyan.md" 
+        link: "" 
     people:
       - name: "Tianyang Jiang"
         role: "Ph.D."
