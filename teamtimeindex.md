@@ -7,7 +7,7 @@ layout: teamtimedefault
   <div class="col-sm-10 col-sm-offset-1 col-lg-9 col-lg-offset-1_5">
       <div>
         <section class="category-slice" post-cate="All">
-          {% for post in paginator.posts %}
+          {% for post in site.posts %}
             <article>
                 <header>
                     <a href="{{ site.baseurl | prepend: site.url  }}/archive/#{{ post.date | date: '%Y-%m-%d' }}"><span class="octicon octicon-calendar"></span>&nbsp;<span>{{ post.date | date: "%Y-%m-%d" }}</span></a>

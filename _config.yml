@@ -1,7 +1,6 @@
 theme: jekyll
 
 ##teamtime pages
-plugins: [jekyll-paginate]
 
 permalink: /:categories/:title/
 
