@@ -293,7 +293,7 @@ team:
         role: "Associate Professor"
         desc: "Computer Science and Technology."
         image: assets/img/team/2.jpg
-        link: homepages_zhangguangyan 
+        link: homepage_zhangguangyan 
     people:
       - name: "Tianyang Jiang"
         role: "Ph.D."
@@ -310,7 +310,7 @@ team:
       - name: "Junchao Chen"
         role: "Master"
         image: assets/img/team/2.jpg
-        link: homepages_chenjunchao
+        link: homepage_chenjunchao
       - name: "Hanyu He"
         role: "Master"
         image: assets/img/team/2.jpg

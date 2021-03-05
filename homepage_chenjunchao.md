@@ -1,5 +1,5 @@
 ---
-layout: teamtimepost
+layout: homepagepost
 title: 清华大学HPCxx团队
 cname: 陈军超
 role: 研究生一年级
