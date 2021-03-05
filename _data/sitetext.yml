@@ -56,29 +56,203 @@ timeline:
     section: timeline
     events:
       - title: "FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays"
-        year: "2021"
-        auth: "Tianyang Jiang, **Guangyan Zhang**,Zican Huang, Xiaosong Ma, Junyu Wei, Zhiyue Li, Weimin Zheng."
-        desc: "In the Proceedings of the 19th USENIX Conference on File and Storage Technologies **(FAST'21)**, Santa Clara, CA, February 2021. Pages 355-370."
-        link: https://www.usenix.org/conference/fast21/presentation/jiang
-        image: 
-      - title: "FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays"
-        year: "2021"
-        auth: "Tianyang Jiang, **Guangyan Zhang**,Zican Huang, Xiaosong Ma, Junyu Wei, Zhiyue Li, Weimin Zheng."
-        desc: "In the Proceedings of the 19th USENIX Conference on File and Storage Technologies **(FAST'21)**, Santa Clara, CA, February 2021. Pages 355-370."
-        link: https://www.usenix.org/conference/fast21/presentation/jiang
-        image:
-      - title: "FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays"
-        year: "2021"
-        auth: "Tianyang Jiang, **Guangyan Zhang**,Zican Huang, Xiaosong Ma, Junyu Wei, Zhiyue Li, Weimin Zheng."
-        desc: "In the Proceedings of the 19th USENIX Conference on File and Storage Technologies **(FAST'21)**, Santa Clara, CA, February 2021. Pages 355-370."
-        link: https://www.usenix.org/conference/fast21/presentation/jiang
-        image:
-      - title: "FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays"
-        year: "2021"
-        auth: "Tianyang Jiang, **Guangyan Zhang**,Zican Huang, Xiaosong Ma, Junyu Wei, Zhiyue Li, Weimin Zheng."
-        desc: "In the Proceedings of the 19th USENIX Conference on File and Storage Technologies **(FAST'21)**, Santa Clara, CA, February 2021. Pages 355-370."
-        link: https://www.usenix.org/conference/fast21/presentation/jiang
-        image:
+			  year: "2021"
+			  auth: "Tianyang Jiang, **Guangyan Zhang**, Zican Huang, Xiaosong Ma, Junyu Wei, Zhiyue Li, Weimin Zheng."
+			  desc: "In the Proceedings of the 19th USENIX Conference on File and Storage Technologies(**FAST'21**), Santa Clara, CA, February 2021. Pages 355-370."
+			  link: https://www.usenix.org/conference/fast21/presentation/jiang
+			  image: 
+			- title: "On the Feasibility of Parser-based Log Compression in	Large-Scale Cloud Systems"
+			  year: "2021"
+			  auth: "Junyu Wei, **Guangyan Zhang**, Yang Wang, Zhiwei Liu, Zhanyang Zhu, Junchao Chen, Tingtao Sun, Qi Zhou."
+			  desc: "In the Proceedings of the 19th USENIX Conference on File and Storage Technologies(**FAST'21**), Santa Clara, CA, February 2021. Pages 249-262."
+			  link: https://www.usenix.org/conference/fast21/presentation/wei
+			  image: 
+			- title: "SmartTuning: Selecting HyperParameters of a ConvNet System for Fast Training and Small Working Memory"
+			  year: "2021"
+			  auth: "Xiaqing Li, **Guangyan Zhang**, Weimin Zheng."
+			  desc: "**IEEE Transactions on Parallel and Distributed Systems**, Volume: 32, Issue: 7, Pages: 1690-1701. July 2021."
+			  link: https://doi.org/10.1109/TPDS.2020.3040723
+			  image: 
+			- title: "Boafft: Distributed Deduplication for Big Data Storage in the Cloud"
+			  year: "2020"
+			  auth: "Shengmei Luo, ** Guangyan Zhang**, Chengwen Wu, Samee U. Khan, and Keqin Li."
+			  desc: "** IEEE Transactions on Cloud Computing**, Vol. 8, No. 4, pp. 1199-1211, Dec. 2020."
+			  link: http://doi.ieeecomputersociety.org/10.1109/TCC.2015.2511752
+			  image: 
+			- title: "Determining Data Distribution for Large Disk Enclosures with 3-D Data Templates"
+			  year: "2019"
+			  auth: "**Guangyan Zhang**, Zhufan Wang, Xiaosong Ma, Songlin Yang, Zican Huang, Weimin Zheng."
+			  desc: "**ACM Transactions on Storage**, Volume 15, Issue 4, Article No. 27, December 2019. 1-38 pages."
+			  link: https://dl.acm.org/citation.cfm?id=3342858
+			  image: 
+			- title: "Dayu: Fast and Low-interference Data Recovery in Very-large Storage Systems"
+			  year: "2019"
+			  auth: "Zhufan Wang, **Guangyan Zhang**, Yang Wang, Qinglin Yang, Jiaji Zhu."
+			  desc: "In the Proceedings of the 2019 USENIX Annual Technical Conference (**ATC'19**), Renton, WA, July 2019. Pages 993-1007."
+			  link: https://www.usenix.org/conference/atc19/presentation/wang-zhufan
+			  image: 
+			- title: "Redio: Accelerating Disk-based Graph Processing by Reducing Disk I/Os"
+			  year: "2019"
+			  auth: "Chengwen Wu, **Guangyan Zhang**, Yang Wang, Xinyang Jiang, Weimin Zheng."
+			  desc: "**IEEE Transactions on Computers**,Volume: 68, Issue: 3, Page(s): 414 - 425. March 2019."
+			  link: https://ieeexplore.ieee.org/document/8489961
+			  image: 
+			- title: "HyConv: Accelerating Multi-phase CNN Computation by Fine-grained Policy Selection"
+			  year: "2019"
+			  auth: "Xiaqing Li, **Guangyan Zhang**, Zhufan Wang, Weimin Zheng."
+			  desc: "**IEEE Transactions on Parallel and Distributed Systems**, Volume: 30, Issue: 2, Page(s): 388 - 399. Feb. 2019."
+			  link: https://ieeexplore.ieee.org/document/8428450/
+			  image: 
+			- title: "RAID+: Deterministic and Balanced Data Distribution for Large Disk Enclosures"
+			  year: "2018"
+			  auth: "**Guangyan Zhang**, Zican Huang, Xiaosong Ma, Songlin Yang, Zhufan Wang, Weimin Zheng."
+			  desc: "In the Proceedings of the 16th USENIX Conference on File and Storage Technologies (**FAST'18**), Oakland, CA, February 2018. Pages 279-293."
+			  link: https://www.usenix.org/conference/fast18/presentation/zhang
+			  image: 
+			- title: "Accelerating Breadth-First Graph Search on a Single Server by Dynamic Edge Trimming"
+			  year: "2018"
+			  auth: "**Guangyan Zhang**, Shuhan Cheng, Jiwu Shu, Qingda Hu, and Weimin Zheng."
+			  desc: "Journal of Parallel and Distributed Computing (**JPDC**), Volume 120, Pages 383-394, October 2018."
+			  link: http://authors.elsevier.com/sd/article/S0743731517302617
+			  image: 
+			- title: "Building a Fault Tolerant Framework with Deadline Guarantee in Big Data Stream Computing Environments"
+			  year: "2017"
+			  auth: "Dawei Sun, **Guangyan Zhang**, Chengwen Wu, Keqin Li, and Weimin Zheng."
+			  desc: "Journal of Computer and System Sciences, Volume 89, November 2017, Pages 4-23."
+			  link: http://dx.doi.org/10.1016/j.jcss.2016.10.010
+			  image: 
+			- title: "Xscale: Online X-code RAID-6 Scaling Using Lightweight Data Reorganization"
+			  year: "2016"
+			  auth: "**Guangyan Zhang**, Guiyong Wu, Yu Lu, Jie Wu, and Weimin Zheng."
+			  desc: "** IEEE Transactions on Parallel and Distributed Systems**, Volume: 27, Issue: 12, Page(s): 3687 - 3700. Dec. 2016."
+			  link: http://dx.doi.org/10.1109/TPDS.2016.2542806
+			  image: 
+			- title: "AsyncStripe: I/O Efficient Asynchronous Graph Computing on a Single Server"
+			  year: "2016"
+			  auth: "Shuhan Cheng, **Guangyan Zhang**, Jiwu Shu, and Weimin Zheng."
+			  desc: "In the Proceedings of the 2016 International Conference on Hardware - Software Codesign and System Synthesis (**CODES+ISSS 2016**), Pittsburgh, USA, October 2016."
+			  link: http://www.esweek.org/accepted-papers/2016
+			  image: 
+			- title: "Performance Analysis of GPU-based Convolutional Neural Networks"
+			  year: "2016"
+			  auth: "Xiaqing Li, **Guangyan Zhang**, H. Howie Huang, Zhufan Wang and Weimin Zheng."
+			  desc: "In the Proceedings of the 45th International Conference on Parallel Processing (** ICPP-2016**), Philadelphia, PA USA, August 2016."
+			  link: http://icpp2016.cs.wcupa.edu/programSessions.html
+			  image: 
+			- title: "Large graph computing systems"
+			  year: "2017"
+			  auth: "Chengwen Wu,** Guangyan Zhang**, Keqin Li, and Weimin Zheng"
+			  desc: "Big Data Management, Architecture, and Processing, Kuan-Ching Li, Hai Jiang, and Albert Zomaya, eds., Chapman & Hall/CRC Big Data Series, CRC Press, Taylor & Francis Group, USA, 2017."
+			  link: https://sites.google.com/site/bigdata2map/
+			  image: 
+			- title: "FastBFS: Fast Breadth-First Graph Search on a Single Server"
+			  year: "2016"
+			  auth: "Shuhan Cheng, **Guangyan Zhang**, Jiwu Shu, Qingda Hu, and Weimin Zheng."
+			  desc: "In the Proceedings of the 30th IEEE International Parallel &amp; Distributed Processing Symposium (**IPDPS'16**), Chicago, Illinois USA, May 2016."
+			  link: http://ipdps.org/ipdps2016/2016_advance_program.html
+			  image: 
+			- title: "Rethinking Computer Architectures and Software Systems for Phase Change Memory"
+			  year: "2016"
+			  auth: "Chengwen Wu,** Guangyan Zhang**, and Keqin Li."
+			  desc: "**Journal of Emerging Technologies in Computing Systems**, Volume 12, Issue 4, Article No. 33, May 2016."
+			  link: http://dl.acm.org/citation.cfm?id=2893186
+			  image: 
+			- title: "Deep Learning and Its Parallelization"
+			  year: "2015"
+			  auth: "Xiaqing Li, **Guangyan Zhang**, Keqin Li, and Weimin Zheng"
+			  desc: "Big Data: Principles and Paradigms, Rajkumar Buyya, Rodrigo N. Calheiros, and Amir Vahid Dastjerdi, eds., Morgan Kaufmann/Elsevier, 2015."
+			  link: http://www.cloudbus.org/bigdata/
+			  image: 
+			- title: "Reconsidering Single Disk Failure Recovery for Erasure Coded Storage Systems: Optimizing Load Balancing in Stack-Level"
+			  year: "2016"
+			  auth: "Yingxun Fu, Jiwu Shu, Zhirong Shen, and **Guangyan Zhang**."
+			  desc: "**IEEE Transactions on Parallel and Distributed Systems**, Volume: 27, Issue: 5, Page(s): 1457 - 1469. May 2016."
+			  link: http://dx.doi.org/10.1109/TPDS.2015.2442979
+			  image: 
+			- title: "CaCo: An Efficient Cauchy Coding Approach for Cloud Storage Systems"
+			  year: "2016"
+			  auth: "**Guangyan Zhang**, Guiyong Wu, Shupeng Wang, Jiwu Shu, Weimin Zheng, and Keqin Li."
+			  desc: "**IEEE Transactions on Computers**, Volume: 65, Issue: 2, Page(s): 435 - 447. Feb. 2016."
+			  link: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7100897&sortType=asc_p_Sequence&filter=AND(p_Publication_Number:12)&pageNumber=14&rowsPerPage=50
+			  image: 
+			- title: "Re-Stream: real-time and energy-efficient resource scheduling in big data stream computing environments"
+			  year: "2015"
+			  auth: "Dawei Sun, **Guangyan Zhang**, Songlin Yang, Weimin Zheng, Samee  Khan, and Keqin Li."
+			  desc: "Information Sciences, Volume 319, Pages 92-112, October 2015."
+			  link: http://www.sciencedirect.com/science/article/pii/S0020025515001929
+			  image: 
+			- title: "FastRAQ: A Fast Approach to Range-Aggregate Queries in Big Data Environments"
+			  year: "2015"
+			  auth: "X. Yun, G. Wu, **G. Zhang**, K. Li, and S. Wang,"
+			  desc: "** IEEE Transactions on Cloud Computing**,Volume: 3, Issue: 2, Page(s): 206-218. July 2015."
+			  link: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6868272
+			  image: 
+			- title: "Key technologies for big data stream computing"
+			  year: "2015"
+			  auth: "Dawei Sun, **Guangyan Zhang**, Weimin Zheng, and Keqin Li"
+			  desc: "Big Data: Algorithms, Analytics, and Applications, Kuan-Ching Li, Hai Jiang, Laurence T. Yang, and Alfredo Cuzzocrea, eds., CRC Press, Taylor & Francis Group, 2015."
+			  link: http://www.crcpress.com/product/isbn/9781482240559
+			  image: 
+			- title: "Redistribute Data to Regain Load Balance during RAID-4 Scaling"
+			  year: "2015"
+			  auth: "**Guangyan Zhang**, Jigang Wang, Keqin Li, Jiwu Shu, and Weimin Zheng"
+			  desc: "**IEEE Transactions on P****arallel and Distributed System**s,Volume: 26, Issue: 1, Page(s): 219-229. Jan. 2015."
+			  link: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6748089&sortType%3Dasc_p_Sequence%26filter%3DAND%28p_IS_Number%3A6980150%29
+			  image: 
+			- title: "Accelerate RDP RAID-6 Scaling by Reducing Disk I/Os and XOR Operations"
+			  year: "2015"
+			  auth: "**Guangyan Zhang**, Keqin Li, Jingzhe Wang, Weimin Zheng"
+			  desc: "**IEEE Transactions on Computers**,Volume: 64, Issue: 1, Page(s): 32-44. Jan. 2015."
+			  link: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6642028&queryText%3DAccelerate+RDP+RAID-6+Scaling+by+Reducing+Disk+I%2FOs+and+XOR+Operations
+			  image: 
+			- title: "Rethinking RAID-5 Data Layout for Better Scalability"
+			  year: "2014"
+			  auth: "**Guangyan Zhang**, Weimin Zheng, Keqin Li"
+			  desc: "**IEEE Transactions on Computers**, Volume: 63 , Issue: 11, Page(s): 2816 - 2828. Nov. 2014."
+			  link: http://www.computer.org/csdl/trans/tc/2014/11/06552201-abs.html
+			  image: 
+			- title: "Design and evaluation of a new approach to RAID-0 scaling"
+			  year: "2013"
+			  auth: "**Zhang, G.**, Zheng, W., and Li, K."
+			  desc: "**ACM Transactions on Storage**, 9, 4, Article 11 (November 2013), 31 pages."
+			  link: http://dl.acm.org/citation.cfm?id=2491054&CFID=391225350&CFTOKEN=99589283
+			  image: 
+			- title: "AIP: A Tool for Flexible and Transparent Data Managemen"
+			  year: "2013"
+			  auth: "**Guangyan Zhang**, Jianping Qiu, Jiwu Shu, Weimin Zheng."
+			  desc: "SCIENCE CHINA, Information Sciences, 2013, 56(5):052114(11)."
+			  link: http://link.springer.com/article/10.1007%2Fs11432-011-4466-6#
+			  image: 
+			- title: "FastScale: Accelerate RAID Scaling by Minimizing Data Migration"
+			  year: "2011"
+			  auth: "Weimin Zheng, **Guangyan Zhang**"
+			  desc: "In the Proceedings of the 9th USENIX Conference on File and Storage Technologies (**FAST'11**), San Jose, CA, February 2011."
+			  link: http://www.usenix.org/events/fast11/tech/
+			  image: 
+			- title: "SOPA: Selecting the Optimal Policy Adaptively"
+			  year: "2010"
+			  auth: "Yang Wang, Jiwu Shu, **Guangyan Zhang**, Wei Xue, Weimin Zheng."
+			  desc: "**ACM transactions on storage**, Volume 6 Issue 2, July 2010."
+			  link: http://portal.acm.org/citation.cfm?id=1807064
+			  image: 
+			- title: "ALV: A New Data Redistribution Approach to RAID-5 Scaling"
+			  year: "2010"
+			  auth: "**Guangyan Zhang**, Weimin Zheng, and Jiwu Shu."
+			  desc: "IEEE Transactions on Computers, Vol. 59, No. 3. pp. 345-357, March 2010."
+			  link: http://www2.computer.org/portal/web/csdl/doi/10.1109/TC.2009.150
+			  image: 
+			- title: "Design and Implementation of an Out-of-Band Virtualization System for Large SANs"
+			  year: "2007"
+			  auth: "**Guangyan Zhang**, Jiwu Shu, Wei Xue, and Weimin Zheng."
+			  desc: "IEEE Transactions on Computers, Vol. 56, No. 12. pp. 1654-1665, Dec 2007."
+			  link: http://doi.ieeecomputersociety.org/10.1109/TC.2007.70765
+			  image: 
+			- title: "SLAS: An efficient approach to scaling round-robin striped volumes"
+			  year: "2007"
+			  auth: "**Zhang, G.**, Shu, J., Xue, W., and Zheng, W. 2007."
+			  desc: "**ACM Transactions on Storage**, Volume 3 Issue 1, March 2007, pp. 1-39."
+			  link: http://portal.acm.org/citation.cfm?id=1227838&dl=ACM&coll=GUIDE&CFID=43604203&CFTOKEN=49141142
+			  image: 
 
 about:
     title: "About Us"
