@@ -1,6 +1,5 @@
 // Styling for the masthead
 header.masthead {
-  height: 300px;
   text-align: center;
   color: white;
   background-image: url("#{$header-image}");
@@ -9,8 +8,8 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   .intro-text {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 100px;
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -30,8 +29,8 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 50px;
-      padding-bottom: 50px;
+      padding-top: 300px;
+      padding-bottom: 200px;
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;
