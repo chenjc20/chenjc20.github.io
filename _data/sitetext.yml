@@ -299,7 +299,7 @@ team:
         role: "Associate Professor"
         desc: "Computer Science and Technology."
         image: assets/img/team/2.jpg
-        link: "" 
+        link: homepages_chenjunchao 
     people:
       - name: "Tianyang Jiang"
         role: "Ph.D."
