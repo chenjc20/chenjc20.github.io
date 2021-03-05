@@ -33,7 +33,13 @@
   {% for person in site.data.sitetext.team.people %}
 	<div class="col-sm-3">
 	  <div class="team-member">
+		{% if person.link %}
+		<a href="{{person.link}}">
+			<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+		</a>
+		{% else %}
 		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+		{% endif %}
 		<h6>{{ person.name }}</h6>
 		<p class="text-muted">{{ person.role }}</p>
 	  </div>

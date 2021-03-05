@@ -6,13 +6,11 @@ layout: teamtimedefault
   <header>
     <div class="about">
       <div class="cover-author-image">
-        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}{{page.img}}" alt="{{site.author}}"></a>
       </div>
-      <div class="author-name">{{site.author}}</div>
-      <p>{{site.about-author}}</p>
+      <div class="author-name">{{page.cname}}</div>
+      <p>{{page.role}}</p>
     </div>
-  </header> <!-- End Header -->
-  <footer>
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
       <ul>
@@ -20,9 +18,9 @@ layout: teamtimedefault
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
-      <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
+      <p><a href="mailto:{{ page.email }}" style="color:black;">{{page.email}}</a></p>
     </div>
-  </footer> <!-- End Footer -->
+  </header> <!-- End Header -->
 </aside> <!-- End Sidebar -->
 <div class="content-box clearfix">
   {{ content }}
