@@ -286,7 +286,18 @@ clients:
       - title: "IEEE Transactions on Computers"
         url: https://www.computer.org/csdl/journal/tc
         logo: assets/img/clients/IEEE.png
-    
+
+faculty: 
+    title: "Faculty"
+    text: "If you’re interested in our research fields."
+    section: faculty
+    people:
+      - name: "Guangyan Zhang"
+        role: "Associate Professor"
+        desc: "Computer Science and Technology."
+        image: assets/img/team/2.jpg
+        link: "_posts/personalhomepages/2021-03-03-zhangguangyan.md"        
+
 team:
     title: "Advisees"
     text: "Current Students"
