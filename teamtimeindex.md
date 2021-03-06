@@ -10,7 +10,7 @@ layout: teamtimedefault
           {% for post in site.posts %}
             <article>
                 <header>
-                    <span class="octicon octicon-calendar"></span>&nbsp;<span>{{ post.date | date: "%Y-%m-%d" }}</span>
+                <a href="{{ site.baseurl | prepend: site.url  }}/archive/#{{ post.date | date: '%Y-%m-%d' }}"><span class="octicon octicon-calendar"></span>&nbsp;<span>{{ post.date | date: "%Y-%m-%d" }}</span></a>
                 </header>
                 <div class="module">
                   <p class="title" style="color:#1e7293;"> {{ post.title }}</p>

@@ -38,19 +38,15 @@ scripts: [category.js]
                         <a href="{{ site.baseurl | prepend: site.url  }}/archive/#{{ post.date | date: '%Y-%m-%d' }}"><span class="octicon octicon-calendar"></span>&nbsp;<span>{{ post.date | date: "%Y-%m-%d" }}</span></a>
                     </header>
                     <div class="module">
-                        <a class="title" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-                            {{ post.title }}
-                        </a>
-                        <p>{% if post.excerpt.size > 32 %}{{ post.excerpt }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}</p>
-                        <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Read More</a>
+                        <p class="title" style="color:#1e7293;">{{ post.title }}</p>
+                        <p>{% if post.excerpt.size > 32 %}{{ post.excerpt }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 300 }}{% endif %}</p>
                         <footer>
                             {% for tag in post.tags %}
                             <a class="word-keep" href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
                             {% endfor %}
-                      <span class="word-keep pull-right">
-                          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}#post-comment"><span class="octicon octicon-comment"></span>&nbsp;Comment</a>
-                          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}#post-share"><span class="octicon octicon-file-symlink-file"></span>&nbsp;Share</a>
-                      </span>
+                            <span class="word-keep pull-right">
+                            <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Read More</a>
+                            </span>
                         </footer>
                     </div>
                 </article>
@@ -66,19 +62,15 @@ scripts: [category.js]
                         <a href="{{ site.baseurl | prepend: site.url  }}/archive/#{{ post.date | date: '%Y-%m-%d' }}"><span class="octicon octicon-calendar"></span>&nbsp;<span>{{ post.date | date: "%Y-%m-%d" }}</span></a>
                     </header>
                     <div class="module">
-                        <a class="title" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-                            {{ post.title }}
-                        </a>
-                        <p>{% if post.excerpt.size > 32 %}{{ post.excerpt }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}</p>
-                        <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url  }}">Read More</a>
+                        <p class="title" style="color:#1e7293;">{{ post.title }}</p>
+                        <p>{% if post.excerpt.size > 32 %}{{ post.excerpt }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 300 }}{% endif %}</p>
                         <footer>
                             {% for tag in post.tags %}
                             <a class="word-keep" href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
                             {% endfor %}
-                          <span class="word-keep pull-right">
-                              <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}#post-comment"><span class="octicon octicon-comment"></span>&nbsp;Comment</a>
-                              <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}#post-share"><span class="octicon octicon-file-symlink-file"></span>&nbsp;Share</a>
-                          </span>
+                            <span class="word-keep pull-right">
+                            <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Read More</a>
+                            </span>
                         </footer>
                     </div>
                 </article>
