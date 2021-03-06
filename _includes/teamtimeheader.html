@@ -12,15 +12,11 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        {% if page.url == "/teamtimeindex.html" %}
-                        <li class="active">{% else %}
-                        <li>{% endif %}
-                        <a href="{{ site.baseurl | prepend: site.url }}/" class="word-keep"><span class="octicon octicon-book"></span></span>&nbsp;&nbsp;Blog</a>
+                        <li>
+                            <a href="{{ site.baseurl | prepend: site.url }}/teamtimeindex/" class="word-keep"><span class="octicon octicon-book"></span></span>&nbsp;&nbsp;List</a>
                         </li>
                         {% for p in site.pages %}{% if p.isNavItem %}
-                        {% if p.url == page.url %}
-                        <li class="active">{% else %}
-                        <li>{% endif %}
+                        <li>
                             <a href="{{ p.url | prepend: site.baseurl | prepend: site.url }}" class="word-keep"><span class="octicon {{ p.icon }}"></span>&nbsp;&nbsp;{{ p.title }}</a>
                         </li>
                         {% endif %}

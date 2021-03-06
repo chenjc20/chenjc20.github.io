@@ -52,8 +52,6 @@ article .readmore{
     color: #999;
     text-shadow: 0 1px #fff;
     text-decoration: none;
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
 article .readmore:hover{
     background: #258fb8;

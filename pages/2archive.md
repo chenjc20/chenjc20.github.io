@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: teamtimepage
 title: Archive
 permalink: /archive/
 icon: octicon-repo
@@ -11,11 +11,13 @@ styles: archive.css
 {% for post in site.posts  %}
     <div class="cd-timeline-block" id="{{ post.date | date: '%Y-%m-%d' }}">
         <div class="cd-timeline-img cd-picture">
-            <img src="{{ '/icon-picture.svg' | prepend: site.imgrepo }}" alt="Picture">
         </div>
-
         <div class="cd-timeline-content">
-            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"><h4>{{ post.title }}</h4></a>
+            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+            <h4>{{ post.title }}</h4></a>
+            {% for tag in post.tags %}
+            <a href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tag }}" style="font-size:15px;color:gray;"><span class="octicon octicon-tag" ></span>&nbsp;{{ tag }}</a>
+            {% endfor %}
             <span class="cd-date">{{ post.date | date: '%Y-%m-%d' }}</span>
         </div>
     </div>

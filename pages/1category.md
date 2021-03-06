@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: teamtimedefault
 title: Category
 permalink: /category/
 icon: octicon-list-unordered
@@ -9,10 +9,7 @@ scripts: [category.js]
 ---
 
 <div class="row index">
-
-
     <div class="col-sm-10 col-sm-offset-1 col-lg-9 col-lg-offset-1_5">
-
         <div class="dropdown">
             <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 <span class="octicon octicon-list-unordered"></span>&nbsp;Categories
@@ -30,12 +27,9 @@ scripts: [category.js]
                         {{ category | first }}&nbsp;<span class="categories-badge">{{ category | last | size }}</span>
                     </a>
                 </li>
-
                 {% endfor %}
             </ul>
         </div>
-
-
         <div>
             <section class="category-slice" post-cate="All">
                 {% for post in site.posts %}
@@ -62,8 +56,6 @@ scripts: [category.js]
                 </article>
                 {% endfor %}
             </section>
-
-
             {% for category in site.categories %}
             <section class="category-slice" post-cate="{{category | first}}">
                 {% for posts in category  %}
@@ -96,6 +88,5 @@ scripts: [category.js]
             </section>
             {% endfor %}
         </div>
-
     </div>
 </div>

@@ -2,7 +2,7 @@
 title: 记一次在spring-mvc中踩坑的经历
 tags: spring mvc java
 categories: java
-published: false
+published: true
 ---
 
 今天打算在项目中加入数据验证功能，具体可参考 [数据验证][validator]
@@ -35,22 +35,6 @@ validator果然为null, 且如果拿到validator对象并set进去，就可以�
 
 到了这个地步基本上找到原因了，解决方式很简单，将validator绑定起来就可以了
 ![validator-config][validator-config]
-
-
-
-
-
-
-
-[validator]:http://jinnianshilongnian.iteye.com/blog/1733708
-[自动注册]:https://my.oschina.net/HeliosFly/blog/205343
-[hasErrors]:{{"/mvc-validator/hasErrors.jpg" | prepend: site.imgrepo }}
-[validator-config]:{{"/mvc-validator/validator-config.jpg" | prepend: site.imgrepo }}
-[google]:{{"/mvc-validator/google.jpg" | prepend: site.imgrepo }}
-[initBinder]:{{"/mvc-validator/initBinder.jpg" | prepend: site.imgrepo }}
-[adapter]:{{"/mvc-validator/adapter.jpg" | prepend: site.imgrepo }}
-[driven]:{{"/mvc-validator/driven.jpg" | prepend: site.imgrepo }}
-[notNull]:{{"/mvc-validator/notNull.jpg" | prepend: site.imgrepo }}
 
 
 

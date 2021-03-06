@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: teamtimepage
 title: Tag
 permalink: /tags/
 icon: octicon-tag
