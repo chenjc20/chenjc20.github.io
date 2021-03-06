@@ -11,32 +11,31 @@ services:
     list:
       - title: "Cloud Storage"
         desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
-        icon: fas fa-shopping-cart
+        icon: assets/img/research/cloud_storage.png
       - title: "RAID and Erasure Codes"
         desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
-        icon: fas fa-laptop       
+        icon: assets/img/research/cloud_storage.png
       - title: "[Flash and PCM Storage](http://storage.cs.tsinghua.edu.cn/)"
         desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+        icon: assets/img/research/cloud_storage.png
       - title: "Storage Virtualization"
         desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
-        icon: fas fa-shopping-cart
+        icon: assets/img/research/cloud_storage.png
       - title: "Distributed File Systems"
         desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
-        icon: fas fa-laptop       
+        icon: assets/img/research/cloud_storage.png
       - title: "[Deep Learning](http://storage.cs.tsinghua.edu.cn/)"
         desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+        icon: assets/img/research/cloud_storage.png
       - title: "Graph Computing"
         desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
-        icon: fas fa-shopping-cart
+        icon: assets/img/research/cloud_storage.png
       - title: "Stream Computing"
         desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
-        icon: fas fa-laptop       
+        icon: assets/img/research/cloud_storage.png
       - title: "[Benchmarking](http://storage.cs.tsinghua.edu.cn/)"
         desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
-
+        icon: assets/img/research/cloud_storage.png
 portfolio:
     title: "Courses"
     text: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students"
