@@ -1,8 +1,8 @@
 ---
 layout: homepagepost
 title: 清华大学HPCxx团队
-cname: 陈军超
-role: 研究生一年级
+cname: 张广艳
+role: 教授
 img: assets/img/team/2.jpg
 email: chenjc20@mails.tsinghua.edu.cn
 ---
