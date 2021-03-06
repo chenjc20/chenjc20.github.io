@@ -1,11 +1,9 @@
 ---
 title: 大文件内容对比
-tags: java 算法 algorithm 排序
-categories: algorithm
+tags: OSDI20 算法 algorithm SSD
+categories: OSDI
+author: 李之悦
 ---
-
-* TOC
-{:toc}
 
 最近接到一个需求，要对两个系统的订单进行对比，找出其中的差异，对比结果有4种：一致、不一致、丢失、多余。
 

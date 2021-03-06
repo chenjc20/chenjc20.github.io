@@ -18,6 +18,9 @@ styles: archive.css
             {% for tag in post.tags %}
             <a href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tag }}" style="font-size:15px;color:gray;"><span class="octicon octicon-tag" ></span>&nbsp;{{ tag }}</a>
             {% endfor %}
+            <span class="word-keep pull-right">
+            <a><span class="octicon octicon-comment"></span>&nbsp;{{post.author}}</a>
+            </span>
             <span class="cd-date">{{ post.date | date: '%Y-%m-%d' }}</span>
         </div>
     </div>

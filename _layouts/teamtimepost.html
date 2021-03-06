@@ -7,7 +7,7 @@ layout: teamtimedefault
           <header>
             <h2>{{ page.title }}</h2>
             <p class="post-meta">
-                <span class="octicon octicon-clock"></span> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+                <span class="octicon octicon-clock"></span> {{ page.date | date: "%b %-d, %Y" }}
             </p>
             <p class="post-tag">
                 <span>{% for cat in page.categories %}<a href="{{ '/category' | prepend: site.baseurl | prepend: site.url }}/#{{ cat }}"><span class="octicon octicon-list-unordered"></span>&nbsp;{{ cat }}</a>{% endfor %}</span>
@@ -21,28 +21,17 @@ layout: teamtimedefault
           <article>
             {{content}}
           </article>
-          <hr class="boundary">
-          <div id="post-share" class="bdsharebuttonbox">
-              <a href="#" class="bds_more" data-cmd="more"></a>
-              <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-              <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-              <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
-              <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
-              <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
-          </div>
-        </div>
-        <div class="pad-min"></div>
-        <div id="post-comment" class="sheet post hidden">
-            <div id="disqus_thread"></div>
         </div>
     </div>
     <div class="content-navigation col-lg-3">
       <div class="shadow-bottom-center" >
         <div class="content-navigation-toc">
             <div class="content-navigation-header">
-                <span class="octicon octicon-list-unordered"></span>&nbsp;Toc
+                <span class="octicon octicon-list-unordered"></span>&nbsp;Author
             </div>
-            <div class="content-navigation-list toc"></div>
+            <div class="content-navigation-list toc">
+                <ul><li>{% if page.author %} {{ page.author }}{% endif %}</li></ul>
+            </div>
         </div>
         <div class="content-navigation-tag">
             <div class="content-navigation-header">
@@ -69,7 +58,6 @@ layout: teamtimedefault
                     {% for p in site.posts %}
                         {%if p.url != page.url %}
                             {% assign commonTagCount = 0 %}
-
                             {% for tag in p.tags %}
                                 {% if page.tags contains tag %}
                                     {% assign commonTagCount = commonTagCount | plus: 1 %}

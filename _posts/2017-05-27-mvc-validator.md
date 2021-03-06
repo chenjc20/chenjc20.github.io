@@ -1,7 +1,8 @@
 ---
 title: 记一次在spring-mvc中踩坑的经历
-tags: spring mvc java
-categories: java
+tags: FAST21 NVM RDMD
+categories: FAST
+author: 陈军超
 published: true
 ---
 

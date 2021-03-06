@@ -45,6 +45,7 @@ scripts: [category.js]
                             <a class="word-keep" href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
                             {% endfor %}
                             <span class="word-keep pull-right">
+                            <a><span class="octicon octicon-comment"></span>&nbsp;{{post.author}}</a>
                             <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Read More</a>
                             </span>
                         </footer>
@@ -69,6 +70,7 @@ scripts: [category.js]
                             <a class="word-keep" href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
                             {% endfor %}
                             <span class="word-keep pull-right">
+                            <a><span class="octicon octicon-comment"></span>&nbsp;{{post.author}}</a>
                             <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Read More</a>
                             </span>
                         </footer>

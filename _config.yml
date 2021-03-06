@@ -41,9 +41,6 @@ time       : 2021.03
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
 
-analytics:
-  google: #Google Analytics tracking code here
-
 collections:
   portfolio:
 
