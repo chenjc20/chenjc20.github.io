@@ -1,29 +1,54 @@
 ---
 layout: homepagepost
 title: 清华大学HPCxx团队
-cname: 张广艳
-role: 教授
-img: assets/img/team/2.jpg
-email: chenjc20@mails.tsinghua.edu.cn
+cname: Guangyan Zhang
+role: Associate Professor
+img: assets/img/team/zgy.jpg
+email: gyzh@tsinghua.edu.cn
 ---
-**个人简介**
-* 魏星达，硕士生二年级，上海交通大学并行与分布式系统研究所。在陈海波教授和陈榕副教授的指导下，当前主要研究方向为分布式系统、数据库事务处理，利用新型硬件(如RDMA何RTM)的分布式系统。
-* 英文主页 https://ipads.se.sjtu.edu.cn/pub/members/jinyu_gu
+**Introduction**
+* **Guangyan Zhang** is an associate professor in the Department of Computer Science and Technology, where he joined since July 2008. He obtained his Ph.D degree from Tsinghua University under the guidance of **Prof. Weimin Zheng** and **Prof. Jiwu Shu**. Before that, he received the bachelor's and master's degrees in computer science from Jilin University in 2000 and 2003. 
+* He is a Professional Member of the ACM, a member of **the CCF technical committee of information storage technology**, a Communication Member of **CCF Task Force on Big Data**.
 
-**学术经历**
-* 2015.06 - 至今，上海交通大学并行与分布式系统研究所，硕士生，导师：陈海波
-* 2011.09 - 2015.06，上海交通大学软件学院，本科生，导师：夏虞斌
+**Education Background**
+* 1996.09 - 2000.07，理学学士 (计算机科学), 吉林大学, 中国
+* 2000.09 - 2003.07，工学硕士 (计算机科学与技术), 吉林大学, 中国
+* 2004.09 - 2008.07 ，工学博士 (计算机科学与技术)，清华大学, 中国
 
-**研究方向**
-* 容器系统安全性增加以及虚拟化性能优化。
+**Research**  
+--- His current research focuses on Big Data Computing, Storage Systems, and Distributed Systems, especially in:
+* Cloud Storage
+* RAID and Erasure Codes
+* Flash and PCM Storage
+* Storage Virtualization
+* Distributed File Systems
+* Deep Learning
+* Graph Computing
+* Stream Computing
+* Benchmarking
 
-**研究项目**
+**Courses**  
+--- He teaches three courses, one of which is for graduate students, and the others are for undergraduate students.
+* CS 70240013: Advanced Computer Architecture, for Ph.D and master students,
+* CS 40240443: Computer Architecture, for undergraduate students, and
+* CS 30240522: Program Design and Training, for undergraduate students.
 
-**发表论文**
-* **[FAST]** Heng Zhang, Mingkai Dong, and Haibo Chen. Efficient and available in-memory KV-store with hybrid erasure coding and replication. 14th USENIX Conference on File and Storage Technologies, 2016.
-
-**助教工作**
-* 2015.09 - 2016.01 上海交通大学 软件学院 计算机系统工程(CSE)（本科生）
-
-**获奖情况**
-* 2015.06 上海市优秀毕业生
+**Publications**
+<div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            {%- for event in site.data.sitetext.timeline.events -%}
+            <li class="timeline-inverted">
+                <h4 style="display: inline;">{{ event.title }}</h4>
+                <h6 style="display: inline;margin-left: 10px;">
+                      <a href="{{ event.link }}" style="color:dodgerblue;">[PDF]</a>
+                </h6>
+                  <div class="text-muted">{{ event.auth | markdownify }}</div>
+                  <div class="text-muted">{{ event.desc | markdownify }}</div>
+            </li>
+		  {% endfor %}	
+          </ul>
+        </div>
+      </div>
+    </div>

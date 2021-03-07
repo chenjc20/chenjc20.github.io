@@ -68,8 +68,8 @@ timeline:
         image: 
       - title: "Boafft: Distributed Deduplication for Big Data Storage in the Cloud"
         year: "2020"
-        auth: "Shengmei Luo, ** Guangyan Zhang**, Chengwen Wu, Samee U. Khan, and Keqin Li."
-        desc: "** IEEE Transactions on Cloud Computing**, Vol. 8, No. 4, pp. 1199-1211, Dec. 2020."
+        auth: "Shengmei Luo, **Guangyan Zhang**, Chengwen Wu, Samee U. Khan, and Keqin Li."
+        desc: "**IEEE Transactions on Cloud Computing**, Vol. 8, No. 4, pp. 1199-1211, Dec. 2020."
         link: http://doi.ieeecomputersociety.org/10.1109/TCC.2015.2511752
         image: 
       - title: "Determining Data Distribution for Large Disk Enclosures with 3-D Data Templates"
@@ -117,7 +117,7 @@ timeline:
       - title: "Xscale: Online X-code RAID-6 Scaling Using Lightweight Data Reorganization"
         year: "2016"
         auth: "**Guangyan Zhang**, Guiyong Wu, Yu Lu, Jie Wu, and Weimin Zheng."
-        desc: "** IEEE Transactions on Parallel and Distributed Systems**, Volume: 27, Issue: 12, Page(s): 3687 - 3700. Dec. 2016."
+        desc: "**IEEE Transactions on Parallel and Distributed Systems**, Volume: 27, Issue: 12, Page(s): 3687 - 3700. Dec. 2016."
         link: http://dx.doi.org/10.1109/TPDS.2016.2542806
         image: 
       - title: "AsyncStripe: I/O Efficient Asynchronous Graph Computing on a Single Server"
@@ -134,7 +134,7 @@ timeline:
         image: 
       - title: "Large graph computing systems"
         year: "2017"
-        auth: "Chengwen Wu,** Guangyan Zhang**, Keqin Li, and Weimin Zheng"
+        auth: "Chengwen Wu,**Guangyan Zhang**, Keqin Li, and Weimin Zheng"
         desc: "Big Data Management, Architecture, and Processing, Kuan-Ching Li, Hai Jiang, and Albert Zomaya, eds., Chapman & Hall/CRC Big Data Series, CRC Press, Taylor & Francis Group, USA, 2017."
         link: https://sites.google.com/site/bigdata2map/
         image: 
@@ -146,7 +146,7 @@ timeline:
         image: 
       - title: "Rethinking Computer Architectures and Software Systems for Phase Change Memory"
         year: "2016"
-        auth: "Chengwen Wu,** Guangyan Zhang**, and Keqin Li."
+        auth: "Chengwen Wu,**Guangyan Zhang**, and Keqin Li."
         desc: "**Journal of Emerging Technologies in Computing Systems**, Volume 12, Issue 4, Article No. 33, May 2016."
         link: http://dl.acm.org/citation.cfm?id=2893186
         image: 
@@ -177,7 +177,7 @@ timeline:
       - title: "FastRAQ: A Fast Approach to Range-Aggregate Queries in Big Data Environments"
         year: "2015"
         auth: "X. Yun, G. Wu, **G. Zhang**, K. Li, and S. Wang,"
-        desc: "** IEEE Transactions on Cloud Computing**,Volume: 3, Issue: 2, Page(s): 206-218. July 2015."
+        desc: "**IEEE Transactions on Cloud Computing**,Volume: 3, Issue: 2, Page(s): 206-218. July 2015."
         link: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6868272
         image: 
       - title: "Key technologies for big data stream computing"
@@ -291,7 +291,7 @@ team:
       - name: "Guangyan Zhang"
         role: "Associate Professor"
         desc: "Computer Science and Technology."
-        image: assets/img/team/2.jpg
+        image: assets/img/team/zgy.jpg
         link: homepage_zhangguangyan 
     people:
       - name: "Tianyang Jiang"
