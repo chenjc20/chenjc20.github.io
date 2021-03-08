@@ -1,6 +1,6 @@
 ---
 title: 示例
-tags: OSDI20 算法 algorithm SSD
+tags: OSDI20 SSD
 categories: OSDI
 author: 陈军超
 ---
