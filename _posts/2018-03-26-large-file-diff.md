@@ -1,11 +1,11 @@
 ---
-title: 大文件内容对比
+title: 示例
 tags: OSDI20 算法 algorithm SSD
 categories: OSDI
-author: 李之悦
+author: 陈军超
 ---
 
-最近接到一个需求，要对两个系统的订单进行对比，找出其中的差异，对比结果有4种：一致、不一致、丢失、多余。
+这是一段示例文章格式，大家可以按照这个格式来修改，更多书写要求，可以参考markdown语法。
 
 如果数据量少，处理起来就很简单，例如要对A,B两份数据进行对比：
 1. 将数据A放入哈希表
@@ -74,30 +74,4 @@ author: 李之悦
  }
  ~~~
  
- [完整代码](完整代码)  
-    
-[完整代码]:https://github.com/bit-ranger/architecture/blob/93c189b0cc69f41dc9b030f75c812388e2e20d61/core/src/main/java/com/rainyalley/architecture/core/arithmetic/sort/FileSorter.java
-
-
-# 测试
-
-在最后的多路合并中要考虑使用多少路进行合并，更少的路数，将产生更多的临时文件
-
-拆分时需要考虑每个块的大小，过大的块将造成频繁的FULL GC
-
-IO的缓冲容量区也要考虑，这将影响IO读写的速度，以及FULL GC的频率
-
-以如下配置为例，在我的个人电脑上， 
-cpu频率3.40GHZ，磁盘顺序读450MB/s，随机读190MB/s，顺序写250MB/s，数据宽度20为20字符
-对1千万条数据进行排序，耗时13秒。
-
-~~~java
-FileSorter sorter = new FileSorter((p,n) -> p.compareTo(n),
-    8, 50000, 1024*1024*2, new File("/var/tmp/fileSorter"), false);
-long start = System.currentTimeMillis();
-sorter.sort(file, dest);
-long end = System.currentTimeMillis();
-System.out.println(end - start);
-~~~
-
-该排序算法既有CPU计算又有IO，CPU计算时IO空闲，IO时CPU空间，如果把该方法改写成多线程版本，理论上可以提升不少速度。
+ [完整代码](https://github.com/bit-ranger/architecture/blob/93c189b0cc69f41dc9b030f75c812388e2e20d61/core/src/main/java/com/rainyalley/architecture/core/arithmetic/sort/FileSorter.java)

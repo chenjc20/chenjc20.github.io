@@ -7,7 +7,7 @@ img: assets/img/team/2.jpg
 email: chenjc20@mails.tsinghua.edu.cn
 ---
 **个人简介**
-* 魏星达，硕士生二年级，上海交通大学并行与分布式系统研究所。在陈海波教授和陈榕副教授的指导下，当前主要研究方向为分布式系统、数据库事务处理，利用新型硬件(如RDMA何RTM)的分布式系统。
+* 陈军超，硕士生一年级，清华大学计算机系高性能研究所。在张广艳副教授的指导下，当前主要研究方向为。
 * 英文主页 https://ipads.se.sjtu.edu.cn/pub/members/jinyu_gu
 
 **学术经历**
