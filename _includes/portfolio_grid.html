@@ -12,8 +12,9 @@
       <div class="col-md-4 col-sm-6 portfolio-item">
           <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
         <div class="portfolio-caption">
-          <h4>{{ project.caption.title }}</h4>
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
+          <h5>{{ project.caption.title }}</h5>
+          <p class="text-muted">{{ project.caption.time }}</p>
+          <h7>{{ project.caption.subtitle }}</h7>
         </div>
       </div>
 	{% endfor %}
