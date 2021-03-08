@@ -37,8 +37,8 @@ services:
         desc: "Your description here, full **Markdown** support"
         icon: assets/img/research/cloud_storage.png
 portfolio:
-    title: "Courses"
-    text: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students"
+    title: "activity"
+    text: "news and our daily activities"
     section: portfolio
     closebutton: "Close Project"
     
