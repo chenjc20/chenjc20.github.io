@@ -2,9 +2,8 @@ nav:
   - title: "RESEARCH"
     section: services
 
-  - title: "COURSES"
-    section: portfolio
-    
+#  - title: "COURSES"
+#    section: portfolio
   - title: "Publications"
     section: timeline
 
