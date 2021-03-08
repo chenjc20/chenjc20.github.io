@@ -22,8 +22,8 @@ email: wei-jy19@mails.tsinghua.edu.cn
 * 大规模系统日志压缩工具，LogReducer（https://github.com/THUBear-wjy/LogReducer）
 
 **发表论文**
-*[FAST'21]* **Junyu Wei**, Guangyan Zhang, Yang Wang, Zhiwei Liu, Zhanyang Zhu, Junchao Chen, Tingtao Sun, Qi Zhou. On the Feasibility of Parser-based Log Compression in Large-Scale Cloud Systems. in the Proceedings of the 19th USENIX Conference on File and Storage Technologies (FAST'21), Santa Clara, CA, February 2021. Pages 249-262.
-*[FAST'21]* Tianyang Jiang, Guangyan Zhang, Zican Huang, Xiaosong Ma, **Junyu Wei**, Zhiyue Li, Weimin Zheng. FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays. in the Proceedings of the 19th USENIX Conference on File and Storage Technologies (FAST'21), Santa Clara, CA, February 2021. Pages 355-370.
+* [FAST'21]* **Junyu Wei**, Guangyan Zhang, Yang Wang, Zhiwei Liu, Zhanyang Zhu, Junchao Chen, Tingtao Sun, Qi Zhou. On the Feasibility of Parser-based Log Compression in Large-Scale Cloud Systems. in the Proceedings of the 19th USENIX Conference on File and Storage Technologies (FAST'21), Santa Clara, CA, February 2021. Pages 249-262.
+* [FAST'21]* Tianyang Jiang, Guangyan Zhang, Zican Huang, Xiaosong Ma, **Junyu Wei**, Zhiyue Li, Weimin Zheng. FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays. in the Proceedings of the 19th USENIX Conference on File and Storage Technologies (FAST'21), Santa Clara, CA, February 2021. Pages 355-370.
 
 **助教工作**
 * 2019.03 - 2019.06 清华大学 计算机系 计算机系统结构(CS 40240443)（本科生）
