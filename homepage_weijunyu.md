@@ -4,7 +4,7 @@ title: 清华大学HPCxx团队
 cname: 魏钧宇
 role: 博士生二年级
 img: assets/img/team/wjy.png
-email: wei-jy19@mails.tsinghua.edu.cn
+email: thuweijy@vip.163.com
 ---
 **个人简介**
 * 魏钧宇，博士生二年级，清华大学计算机系高性能研究所，指导老师为张广艳老师，当前主要研究方向为大规模系统日志归档存储、分析和处理，深度学习存储系统等。
