@@ -49,6 +49,13 @@ layout: null
 }
 .navbar-tiffany .navbar-toggle{
     border-color: #fff;
+    font-size: 12px;
+    right: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #fed136;
 }
 
 .navbar-tiffany .navbar-toggle .icon-bar{
