@@ -35,6 +35,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title      : THU HPC
 email      : chenjc20@mails.tsinghua.edu.cn #this is also the email contact forms will go to
 description: ""
+announce:  Last updated on March 10, 2021. Site made with [Jekyll](https://jekyllrb.com/)
 author     : Chen junchao
 time       : 2021.03
 # logo:     #optional, defaults to site title
