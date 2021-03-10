@@ -299,7 +299,8 @@ team:
         image: assets/img/team/2.jpg
       - name: "Junyu Wei"
         role: "Ph.D."
-        image: assets/img/team/2.jpg
+        image: assets/img/team/wjy.png
+        link: homepage_weijunyu
       - name: "Qinglin Yang"
         role: "Ph.D."
         image: assets/img/team/2.jpg
