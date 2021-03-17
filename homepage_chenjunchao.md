@@ -3,27 +3,21 @@ layout: homepagepost
 title: 清华大学HPCxx团队
 cname: 陈军超
 role: 研究生一年级
-img: assets/img/team/2.jpg
+img: assets/img/team/cjc.jpg
 email: chenjc20@mails.tsinghua.edu.cn
 ---
 **个人简介**
-* 陈军超，硕士生一年级，清华大学计算机系高性能研究所。在张广艳副教授的指导下，当前主要研究方向为。
-* 英文主页 https://ipads.se.sjtu.edu.cn/pub/members/jinyu_gu
+* 陈军超，硕士生一年级，清华大学计算机系高性能研究所，指导老师为张广艳老师，当前主要研究方向为大规模系统日志的压缩存储和快速检索方法研究。
+* 当前工作单位为西安卫星测控中心。
 
 **学术经历**
-* 2015.06 - 至今，上海交通大学并行与分布式系统研究所，硕士生，导师：陈海波
-* 2011.09 - 2015.06，上海交通大学软件学院，本科生，导师：夏虞斌
+* 2020.09 - 至今，清华大学计算机系高性能研究所，硕士生，导师：张广艳
+* 2005.09 - 2009.06，国防科技大学计算机学院，本科生
 
 **研究方向**
-* 容器系统安全性增加以及虚拟化性能优化。
+* 大规模系统日志的压缩存储和快速检索。
 
 **研究项目**
 
 **发表论文**
-* **[FAST]** Heng Zhang, Mingkai Dong, and Haibo Chen. Efficient and available in-memory KV-store with hybrid erasure coding and replication. 14th USENIX Conference on File and Storage Technologies, 2016.
-
-**助教工作**
-* 2015.09 - 2016.01 上海交通大学 软件学院 计算机系统工程(CSE)（本科生）
-
-**获奖情况**
-* 2015.06 上海市优秀毕业生
+* ***[FAST]*** Junyu Wei, Guangyan Zhang, Yang Wang, Zhiwei Liu, Zhanyang Zhu, **Junchao Chen**, Tingtao Sun, Qi Zhou. On the Feasibility of Parser-based Log Compression in Large-Scale Cloud Systems. in the Proceedings of the 19th USENIX Conference on File and Storage Technologies *(FAST'21)*, Santa Clara, CA, February 2021. Pages 249-262.

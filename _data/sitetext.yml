@@ -306,11 +306,11 @@ team:
         image: assets/img/team/2.jpg
       - name: "Zhiyue Li"
         role: "Master"
-        image: assets/img/team/2.jpg
+        image: assets/img/team/lzy.jpg
         link: homepage_lizhiyue
       - name: "Junchao Chen"
         role: "Master"
-        image: assets/img/team/2.jpg
+        image: assets/img/team/cjc.jpg
         link: homepage_chenjunchao
       - name: "Hanyu He"
         role: "Master"

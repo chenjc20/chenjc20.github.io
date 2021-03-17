@@ -3,7 +3,7 @@ layout: homepagepost
 title: 清华大学HPCxx团队
 cname: 李之悦
 role: 硕士生一年级
-img: assets/img/team/lzy.png
+img: assets/img/team/lzy.jpg
 email: sldjlzy@163.com
 ---
 **个人简介**
