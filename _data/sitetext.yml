@@ -307,6 +307,7 @@ team:
       - name: "Zhiyue Li"
         role: "Master"
         image: assets/img/team/2.jpg
+        link: homepage_lizhiyue
       - name: "Junchao Chen"
         role: "Master"
         image: assets/img/team/2.jpg
