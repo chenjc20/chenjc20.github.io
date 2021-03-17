@@ -1,6 +1,6 @@
 ---
 title: Concordia:Distributed Shared Memory with In-Network Cache Coherence
-tags: FAST'21 Cache Coherence 可编程交换机 RDMA KVS
+tags: Cache Coherence 可编程交换机 RDMA KVS
 categories: FAST
 author: 李之悦
 ---

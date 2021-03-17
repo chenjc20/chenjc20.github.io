@@ -1,6 +1,6 @@
 ---
 title: Fast RDMA-based Ordered Key-Value Store using Remote Learned Cache
-tags: OSDI20 RDMA ML KVS
+tags: RDMA ML KVS
 categories: OSDI
 author: 陈军超
 ---
