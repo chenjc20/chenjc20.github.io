@@ -37,7 +37,7 @@ layout: teamtimedefault
                 <ul>
                     {% for tags in page.tags %}
                     <li>
-                        <a href="{{ '/tags' | prepend: site.baseurl | prepend: site.url }}#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tags.tag }}</a>
+                        <a href="{{ '/tags' | prepend: site.baseurl | prepend: site.url }}#{{ tags.tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tags.tag }}</a>
                     </li>
                     {% endfor %}
                 </ul>
