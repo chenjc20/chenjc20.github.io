@@ -1,6 +1,9 @@
 ---
 title: How to Copy Files
-tags: "File System" COW Be-Tree
+tags: 
+  - tag: File System
+  - tag: COW
+  - tag: Be-Tree
 categories: FAST
 author: 陈军超
 ---

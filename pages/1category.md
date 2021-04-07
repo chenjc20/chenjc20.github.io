@@ -41,8 +41,11 @@ scripts: [category.js]
                         <p class="title" style="color:#1e7293;">{{ post.title }}</p>
                         <p>{% if post.excerpt.size < 200 %}{{ post.excerpt }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 200 }}{% endif %}</p>
                         <footer>
-                            {% for tag in post.tags %}
-                            <a class="word-keep" href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
+                            <a class="word-keep">
+                            <span class="octicon octicon-book">{{ post.categories }}</span>
+                            </a>
+                            {% for tags in post.tags %}
+                            <a class="word-keep" href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tags.tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tags.tag }}</a>
                             {% endfor %}
                             <span class="word-keep pull-right">
                             <a><span class="octicon octicon-comment"></span>&nbsp;{{post.author}}</a>
@@ -66,8 +69,8 @@ scripts: [category.js]
                         <p class="title" style="color:#1e7293;">{{ post.title }}</p>
                         <p>{% if post.excerpt.size < 200 %}{{ post.excerpt }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 200 }}{% endif %}</p>
                         <footer>
-                            {% for tag in post.tags %}
-                            <a class="word-keep" href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
+                            {% for tags in post.tags %}
+                            <a class="word-keep" href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tags.tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tags.tag }}</a>
                             {% endfor %}
                             <span class="word-keep pull-right">
                             <a><span class="octicon octicon-comment"></span>&nbsp;{{post.author}}</a>

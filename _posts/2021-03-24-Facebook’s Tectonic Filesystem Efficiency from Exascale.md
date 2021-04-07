@@ -1,6 +1,9 @@
 ---
 title: Facebook’s Tectonic Filesystem:Efficiency from Exascale
-tags: "Distributed Filesytem" Exabyte Multitenant
+tags: 
+  - tag: Distributed Filesytem
+  - tag: Exabyte
+  - tag: Multitenant
 categories: FAST
 author: 杨青霖
 ---
@@ -23,7 +26,7 @@ author: 杨青霖
 
 ### Tectonic架构
 
-![avatar](arch.png)
+![avatar](\assets\img\papers\Tectonic-arch.png)
 
 如上图所示，Tectonic主要包含Chunk Store、Metadata Store、 Client Library以及一些后台的服务。其中Chunk Store可存储的chunk数量随存储节点的增加而线性增长，使得Tectonic可以很容易的扩展至EB级存储。Metadata Store采用分层的元数据组织方式，借助可扩展的ZippyDB进行存储来简化元数据的管理，使Metadata Store可以支持EB级数据的元数据存储和访问，并通过通过哈希分割（Hash partition）来提高元数据的访问性能。
 
@@ -35,13 +38,14 @@ author: 杨青霖
 
 为了获得和单租户文件系统相匹配的性能，在Tectonic中，需要根据不同的tenant的特性对其进行优化，如下图所示为对Blob storage和Data warehouse的Append操作进行的优化。
 
-![avatar](append.png)
+![avatar](\assets\img\papers\Tectonic-append.png)
 
 由于Data warehouse更关注吞吐率，所以在内存中将完整的数据块进行RS code写，减小写入磁盘的数据总量，同时提高磁盘性能。而Blob storage对延迟较为敏感吗，因此采用直接多副本写入磁盘的方式来降低相应延迟，即使写入大小未达到一个块大小，也可以进行部分写。
 
 ## 实验结果
 
-![avatar](latency.png)
+![avatar](\assets\img\papers\Tectonic-latency.png)
+
 上图为Blob Storage的latency测试结果，可以看到Tectonic获得了接近单租户文件系统Haystack的延迟。
  
 了解更多请关注: [论文原文及ppt](https://www.usenix.org/conference/fast21/presentation/pan) 

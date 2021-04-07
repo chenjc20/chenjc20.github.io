@@ -35,9 +35,9 @@ layout: teamtimedefault
             </div>
             <div class="content-navigation-list">
                 <ul>
-                    {% for tag in page.tags %}
+                    {% for tags in page.tags %}
                     <li>
-                        <a href="{{ '/tags' | prepend: site.baseurl | prepend: site.url }}#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
+                        <a href="{{ '/tags' | prepend: site.baseurl | prepend: site.url }}#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tags.tag }}</a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -50,18 +50,11 @@ layout: teamtimedefault
             <div class="content-navigation-list">
                 <ul>
                     {% assign postsAfterFilter = '-' | split: "-" %}
-
                     {% for p in site.posts %}
                         {%if p.url != page.url %}
                             {% assign commonTagCount = 0 %}
-                            {% for tag in p.tags %}
-                                {% if page.tags contains tag %}
-                                    {% assign commonTagCount = commonTagCount | plus: 1 %}
-                                {% endif %}
-                            {% endfor %}
-
-                            {% for cat in p.categories %}
-                                {% if page.categories contains cat %}
+                            {% for tags in p.tags %}
+                                {% if page.tags contains tags %}
                                     {% assign commonTagCount = commonTagCount | plus: 1 %}
                                 {% endif %}
                             {% endfor %}

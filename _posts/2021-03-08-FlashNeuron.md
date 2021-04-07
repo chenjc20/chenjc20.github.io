@@ -1,6 +1,9 @@
 ---
 title: FlashNeuron SSD-Enabled Large-Batch Training of Very Deep Neural Networks
-tags: Sys4AI ML SSD
+tags: 
+  - tag: ML
+  - tag: Sys4AI
+  - tag: SSD
 categories: FAST
 author: 魏钧宇
 ---
