@@ -1,3 +1,11 @@
+---
+layout: homepagepost
+title: 清华大学HPCxx团队
+cname: 王少布
+role: 博士生一年级
+img: assets/img/team/wsb.jpg
+email: 
+---
 #### 个人简介
 
 - 王少布，本科生四年级，北京航空航天大学计算机学院，指导老师为张广艳老师，当前主要研究方向为纠删码存储系统
