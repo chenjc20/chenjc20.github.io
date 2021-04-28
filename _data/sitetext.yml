@@ -323,7 +323,8 @@ team:
         image: assets/img/team/2.jpg
       - name: "Shaobu Wang"
         role: "Ph.D."
-        image: assets/img/team/2.jpg
+        image: assets/img/team/wsb.png
+        link: homepage_wangshaobu
       - name: "Shipeng Hu"
         role: "Ph.D."
         image: assets/img/team/2.jpg
