@@ -41,3 +41,4 @@ author: 陈军超
 
 本内容参照：[论文解读](http://www.ctoutiao.com/2672341.html)
 
+本文引用: Zhan, Yang, Alexander Conway, Yizheng Jiao, Nirjhar Mukherjee, Ian Groombridge, Michael A. Bender, Martin Farach-Colton et al. "How to copy files." In 18th USENIX Conference on File and Storage Technologies (FAST'20), pp. 75-89. 2020.

@@ -2,7 +2,6 @@
 title: Concordia:Distributed Shared Memory with In-Network Cache Coherence
 tags: 
 - tag: Cache
-- tag: Cache Coherence
 - tag: RDMA
 - tag: KVS
 - tag: 可编程交换机
@@ -34,5 +33,7 @@ Concorida面对上面三个挑战，提出了三个主要的技术点：
 
 实验部分与之前的两个DSM工作GAM(有分布式cache)以及Grappa(无分布式cache)做了对比，测量了在三种场景：micro-benchmark、事务处理以及图计算下的性能表现，主要考察的指标有系统吞吐量、网络占用情况以及故障恢复等指标。详细实验结果请参考论文。
 
- 
+---
 了解更多请关注: [论文原文及ppt](https://www.usenix.org/conference/fast21/presentation/wang) 
+
+本文引用: Wang, Qing, Youyou Lu, Erci Xu, Junru Li, Youmin Chen, and Jiwu Shu. "Concordia: Distributed Shared Memory with In-Network Cache Coherence." In 19th USENIX Conference on File and Storage Technologies (FAST'21), pp. 277-292. 2021.

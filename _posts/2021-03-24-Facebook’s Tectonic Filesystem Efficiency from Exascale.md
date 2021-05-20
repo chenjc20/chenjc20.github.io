@@ -1,9 +1,10 @@
 ---
 title: Facebook’s Tectonic Filesystem:Efficiency from Exascale
 tags: 
-  - tag: Distributed Filesytem
-  - tag: Exabyte
+  - tag: Distributed Storage
   - tag: Multitenant
+  - tag: Cloud
+  - tag: File System
 categories: FAST
 author: 杨青霖
 ---

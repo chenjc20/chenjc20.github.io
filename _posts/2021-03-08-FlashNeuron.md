@@ -28,3 +28,5 @@ Offloading的基本思路是，首先有一个profiling的过程，在该过程�
 ---
 
 了解更多请关注: [论文原文及ppt](https://www.usenix.org/conference/fast21/presentation/bae) 
+
+本文引用: Bae, Jonghyun, Jongsung Lee, Yunho Jin, Sam Son, Shine Kim, Hakbeom Jang, Tae Jun Ham, and Jae W. Lee. "FlashNeuron: SSD-Enabled Large-Batch Training of Very Deep Neural Networks." In 19th USENIX Conference on File and Storage Technologies (FAST'21), pp. 387-401. 2021.
