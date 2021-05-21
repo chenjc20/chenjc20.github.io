@@ -1,5 +1,5 @@
 ---
-title: REMIX: Efficient Range Query for LSM-trees
+title: REMIX:Efficient Range Query for LSM-trees
 tags: 
   - tag: LSMTree
   - tag: KVS
