@@ -1,5 +1,5 @@
 ---
-title: Exploiting Combined Locality for Wide-Stripe Erasure Coding in Distributed Storage
+title: Behemoth:A Flash-centric Training Accelerator for Extreme-scale DNNs
 tags: 
   - tag: ML
   - tag: Sys4AI
