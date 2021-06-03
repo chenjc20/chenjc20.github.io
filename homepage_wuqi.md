@@ -1,6 +1,6 @@
 ---
 layout: homepagepost
-title: 清华大学HPCxx团队
+title: 清华大学HPC HESTOR团队
 cname: 吴旗
 role: 硕士二年级
 img: assets/img/team/wuq1.jpg

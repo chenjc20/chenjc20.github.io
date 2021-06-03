@@ -1,6 +1,6 @@
 ---
 layout: homepagepost
-title: 清华大学HPCxx团队
+title: 清华大学HPC HESTOR团队
 cname: 王少布
 role: 博士生一年级
 img: assets/img/team/wsb.jpg

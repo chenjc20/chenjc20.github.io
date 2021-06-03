@@ -1,6 +1,6 @@
 ---
 layout: homepagepost
-title: 清华大学HPCxx团队
+title: 清华大学HPC HESTOR团队
 cname: 魏钧宇
 role: 博士生二年级
 img: assets/img/team/wjy.png

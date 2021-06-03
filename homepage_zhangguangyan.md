@@ -1,6 +1,6 @@
 ---
 layout: homepagepost
-title: 清华大学HPCxx团队
+title: 清华大学HPC HESTOR团队
 cname: Guangyan Zhang
 role: Associate Professor
 img: assets/img/team/zgy.jpg

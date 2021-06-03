@@ -1,6 +1,6 @@
 ---
 layout: homepagepost
-title: 清华大学HPCxx团队
+title: 清华大学HPC HESTOR团队
 cname: 陈军超
 role: 研究生一年级
 img: assets/img/team/cjc.jpg

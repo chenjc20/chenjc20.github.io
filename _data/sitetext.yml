@@ -328,7 +328,8 @@ team:
         image: assets/img/team/hsp.jpg
       - name: "Xiao Niu"
         role: "Master"
-        image: assets/img/team/2.jpg
+        link: homepage_nx
+        image: assets/img/team/niuxiao.jpg
     alumnis:
       - name: "Zican Huang"
         role: "Master"

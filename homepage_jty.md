@@ -1,6 +1,6 @@
 ---
 layout: homepagepost
-title: 清华大学xxx团队
+title: 清华大学HPC HESTOR团队
 cname: 姜天洋
 role: 博士生三年级
 img: assets/img/team/jty.jpg
