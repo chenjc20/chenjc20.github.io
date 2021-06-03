@@ -32,7 +32,7 @@ defaults:
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : THU HPC
+title      : THU HESTOR
 email      : chenjc20@mails.tsinghua.edu.cn #this is also the email contact forms will go to
 description: ""
 announce:  Last updated on March 10, 2021. Site made with [Jekyll.](https://jekyllrb.com/)

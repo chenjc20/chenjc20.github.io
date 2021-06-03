@@ -14,8 +14,11 @@
       <div class="row text-center">
 	  {% for service in site.data.sitetext.services.list %}
         <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <img class="img-fluid d-block mx-auto" src="{{site.baseurl}}/{{ service.icon }}">
+          </span>
           <h4 class="service-heading"style="margin-top:30px;">{{ service.title | markdownify }}</h4>
-          {% if service.desc %}<div class="text-left">{{ service.desc | markdownify }}</div>{% endif %}
+          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
         </div>
 	  {% endfor %}
       </div>

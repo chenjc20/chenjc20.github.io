@@ -1,8 +1,8 @@
 header:
-    name: "THU HESTOR"
+    name: "THU HPC"
     title: "welcome join us"
     text: ""
-    desc: "Our group is led by Prof.**Guangyan Zhang**.We aim at...<br/>We are one of the teams in China to start working on storage systems. Our group has produced around a hundred publications on international conferences like FAST, OSDI, USENIX ATC, ASPLOS, EuroSys, VLDB, IPDPS, etc. as well as authoritative journals including IEEE TC, IEEE TPDS, ACM TOS, etc."
+    desc: "**Guangyan Zhang** is an associate professor in the Department of Computer Science and Technology, where he joined since July 2008. He obtained his Ph.D degree from Tsinghua University under the guidance of **Prof. Weimin Zheng** and **Prof. Jiwu Shu**. Before that, he received the bachelor's and master's degrees in computer science from Jilin University in 2000 and 2003. He is a Professional Member of the ACM, a member of **the CCF technical committee of information storage technology**, a Communication Member of **CCF Task Force on Big Data**."
 
 services:
     title: "Research"
@@ -10,28 +10,31 @@ services:
     section: services
     list:
       - title: "Cloud Storage"
-        desc: "- Boafft: Distributed Deduplication for Big Data Storage in the Cloud.[link](http://doi.ieeecomputersociety.org/10.1109/TCC.2015.2511752)"
+        desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
         icon: assets/img/research/cloud_storage.png
       - title: "RAID and Erasure Codes"
-        desc: "- RAID+: Deterministic and Balanced Data Distribution for Large Disk Enclosures.[link](https://www.usenix.org/conference/fast18/presentation/zhang)"
+        desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
         icon: assets/img/research/cloud_storage.png
-      - title: "Flash and PCM Storage"
-        desc: "FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays.[link](https://www.usenix.org/conference/fast21/presentation/jiang)"
+      - title: "[Flash and PCM Storage](http://storage.cs.tsinghua.edu.cn/)"
+        desc: "Your description here, full **Markdown** support"
         icon: assets/img/research/cloud_storage.png
       - title: "Storage Virtualization"
-        desc: "- Design and Implementation of an Out-of-Band Virtualization System for Large SANs.[link](http://doi.ieeecomputersociety.org/10.1109/TC.2007.70765)"
+        desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
         icon: assets/img/research/cloud_storage.png
       - title: "Distributed File Systems"
-        desc: "- Determining Data Distribution for Large Disk Enclosures with 3-D Data Templates.[link](https://dl.acm.org/citation.cfm?id=3342858)"
+        desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
         icon: assets/img/research/cloud_storage.png
-      - title: "Deep Learning"
-        desc: "- Performance Analysis of GPU-based Convolutional Neural Networks.[link](http://icpp2016.cs.wcupa.edu/programSessions.html)"
+      - title: "[Deep Learning](http://storage.cs.tsinghua.edu.cn/)"
+        desc: "Your description here, full **Markdown** support"
         icon: assets/img/research/cloud_storage.png
       - title: "Graph Computing"
-        desc: "- Large graph computing systems.[link](https://sites.google.com/site/bigdata2map/)"
+        desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
         icon: assets/img/research/cloud_storage.png
       - title: "Stream Computing"
-        desc: "- Building a Fault Tolerant Framework with Deadline Guarantee in Big Data Stream Computing Environments.[link](http://dx.doi.org/10.1016/j.jcss.2016.10.010)"
+        desc: "He teaches three courses, one of which is for graduate students, and the others are for undergraduate students."
+        icon: assets/img/research/cloud_storage.png
+      - title: "[Benchmarking](http://storage.cs.tsinghua.edu.cn/)"
+        desc: "Your description here, full **Markdown** support"
         icon: assets/img/research/cloud_storage.png
 portfolio:
     title: "activity"
@@ -293,8 +296,7 @@ team:
     people:
       - name: "Tianyang Jiang"
         role: "Ph.D."
-        link: homepage_jty
-        image: assets/img/team/jty.jpg
+        image: assets/img/team/2.jpg
       - name: "Junyu Wei"
         role: "Ph.D."
         image: assets/img/team/wjy.png
@@ -310,42 +312,31 @@ team:
         role: "Master"
         image: assets/img/team/cjc.jpg
         link: homepage_chenjunchao
+      - name: "Hanyu He"
+        role: "Master"
+        image: assets/img/team/2.jpg
       - name: "Qi Wu"
         role: "Master"
-        link: homepage_wuqi
-        image: assets/img/team/wuqi.jpg
+        image: assets/img/team/2.jpg
       - name: "Yun Teng"
         role: "Master"
-        link: homepage_tengyun
-        image: assets/img/team/tengyun.jpg
+        image: assets/img/team/2.jpg
       - name: "Shaobu Wang"
         role: "Ph.D."
         image: assets/img/team/wsb.png
         link: homepage_wangshaobu
       - name: "Shipeng Hu"
         role: "Ph.D."
-        link: homepage_hushipeng
-        image: assets/img/team/hsp.jpg
-      - name: "Xiao Niu"
-        role: "Master"
         image: assets/img/team/2.jpg
     alumnis:
       - name: "Zican Huang"
-        role: "Master"
+        role: "Ph.D."
       - name: "Zhanyang Zhu"
-        role: "Master"
+        role: "Ph.D."
       - name: "Xiaqing Li"
         role: "Ph.D."
       - name: "Zhufan Wang"
-        role: "Master"
-      - name: "Songlin Yang"
-        role: "Master"
-      - name: "Guiyong Wu"
-        role: "Master"
-      - name: "Chengwen Wu"
-        role: "Master"
-      - name: "Hanyu He"
-        role: "Master"
+        role: "Ph.D."
     
 footer:
     legal: "Room 8-207, East Main Building, Tsinghua University, Bejing, 10084, China."
