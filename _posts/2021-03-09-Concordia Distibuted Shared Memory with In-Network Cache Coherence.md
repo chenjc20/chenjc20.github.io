@@ -4,7 +4,7 @@ tags:
 - tag: Cache
 - tag: RDMA
 - tag: KVS
-- tag: 可编程交换机
+- tag: programmable switch
 categories: FAST
 author: 李之悦
 ---
