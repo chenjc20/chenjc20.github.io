@@ -1,7 +1,7 @@
 ---
 title: RackSched:A Microsecond-Scale Scheduler for Rack-Scale Computers
 tags: 
-  - tag: Programmable switch
+  - tag: programmable switch
   - tag: scheduling
   - tag: microsend-scale service
 categories: OSDI
@@ -28,7 +28,9 @@ author: 李之悦
 ## 两层调度架构
 针对rack-scale的机器中几百-几千个核调度困难、单一调度核/机器会成为瓶颈的问题，RackSched借助可编程交换机能够以line-rate处理数据的特点，以及能够在上面搭载一定逻辑的功能，在数据平面实现了高效的任务调度。
 
-![avatar](\assets\img\papers\2021-06-01\img1.png)
+<div align=center>
+<img src="\assets\img\papers\2021-06-01\img1.png">
+</div>
 
 RackSched将任务调度分为两层，提出了上图所示的hierarchical scheduling的方法，将每一个任务调度分成两部分：机器之间的第一层调度以及机器内的第二层调度，并向用户提供的还是一个大机器抽象的接口。机器之间的调度通过可编程交换机的逻辑处理实现，以解决不同机器之间load imbalance的问题；而机器内的调度则直接套用Shinjuku的调度方法，解决单个机器内head-of-line blocking的问题。
 
