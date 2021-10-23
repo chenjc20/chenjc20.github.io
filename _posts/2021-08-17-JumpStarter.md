@@ -3,7 +3,7 @@ title: Jump-Starting Multivariate Time Series Anomaly Detection for Online Servi
 tags: 
   - tag: Anomaly dectection
   - tag: Compression
-categories: ATC21
+categories: ATC
 author: 朱心远
 ---
 
