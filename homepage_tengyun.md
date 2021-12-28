@@ -1,6 +1,6 @@
 ---
 layout: homepagepost
-title: 清华大学HPC HESTOR团队
+title: THU FASTsys Team
 cname: 滕云
 role: 硕士生二年级
 img: assets/img/team/tengyun.jpg

@@ -1,6 +1,6 @@
 ---
 layout: homepagepost
-title: 清华大学HPC HESTOR团队
+title: THU FASTsys Team
 cname: 牛骁
 role: 本科四年级
 img: assets/img/team/niuxiao.jpg

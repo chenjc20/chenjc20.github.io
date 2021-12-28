@@ -1,6 +1,6 @@
 ---
 layout: homepagepost
-title: 清华大学HPC HESTOR团队
+title: THU FASTsys Team
 cname: 胡世鹏
 role: 博士生一年级
 img: assets/img/team/hsp.jpg

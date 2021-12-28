@@ -1,6 +1,6 @@
 ---
 layout: homepagepost
-title: 清华大学HPC HESTOR团队
+title: THU FASTsys Team
 cname: Guangyan Zhang
 role: Associate Professor
 img: assets/img/team/zgy.jpg

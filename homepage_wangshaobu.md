@@ -1,6 +1,6 @@
 ---
 layout: homepagepost
-title: 清华大学HPC HESTOR团队
+title: THU FASTsys Team
 cname: 王少布
 role: 博士生一年级
 img: assets/img/team/wsb.jpg

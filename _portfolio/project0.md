@@ -1,9 +1,9 @@
 ---
 caption: #what displays in the portfolio grid:
-  title:  参加FAST'21会议
-  subtitle: On the Feasibility of Parser-based Log Compression in Large-Scale Cloud Systems.
+  title:  Joining FAST'21 meeting
+  subtitle: 
   thumbnail: assets/img/portfolio/1.jpg
-  time: "2020-10-20"
+  time: "2020-12-10"
   
 image: assets/img/portfolio/1.jpg
 

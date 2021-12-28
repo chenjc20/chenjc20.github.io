@@ -1,6 +1,6 @@
 ---
 layout: homepagepost
-title: 清华大学HPC HESTOR团队
+title: THU FASTsys Team
 cname: 陈军超
 role: 研究生一年级
 img: assets/img/team/cjc.jpg

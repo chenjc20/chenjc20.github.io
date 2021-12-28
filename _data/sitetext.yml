@@ -1,8 +1,8 @@
 header:
-    name: "THU HESTOR"
-    title: "welcome join us"
+    name: "THU FASTsys"
+    title: ""
     text: ""
-    desc: "Our group is led by Prof.**Guangyan Zhang**.We aim at...<br/>We are one of the teams in China to start working on storage systems. Our group has produced around a hundred publications on international conferences like FAST, OSDI, USENIX ATC, ASPLOS, EuroSys, VLDB, IPDPS, etc. as well as authoritative journals including IEEE TC, IEEE TPDS, ACM TOS, etc."
+    desc: "Our group is led by Prof.**Guangyan Zhang**.<br/>We are one of the teams in China to start working on storage systems. Our group has produced around a hundred publications on international conferences like FAST, OSDI, USENIX ATC, ASPLOS, EuroSys, VLDB, IPDPS, etc. as well as authoritative journals including IEEE TC, IEEE TPDS, ACM TOS, etc.<br/>**Welcome to join us**!"
 
 services:
     title: "Research"
@@ -108,7 +108,7 @@ timeline:
       - title: "Building a Fault Tolerant Framework with Deadline Guarantee in Big Data Stream Computing Environments"
         year: "2017"
         auth: "Dawei Sun, **Guangyan Zhang**, Chengwen Wu, Keqin Li, and Weimin Zheng."
-        desc: "Journal of Computer and System Sciences, Volume 89, November 2017, Pages 4-23."
+        desc: "**Journal of Computer and System Sciences**, Volume 89, November 2017, Pages 4-23."
         link: http://dx.doi.org/10.1016/j.jcss.2016.10.010
         image: 
       - title: "Xscale: Online X-code RAID-6 Scaling Using Lightweight Data Reorganization"
@@ -132,7 +132,7 @@ timeline:
       - title: "Large graph computing systems"
         year: "2017"
         auth: "Chengwen Wu,**Guangyan Zhang**, Keqin Li, and Weimin Zheng"
-        desc: "Big Data Management, Architecture, and Processing, Kuan-Ching Li, Hai Jiang, and Albert Zomaya, eds., Chapman & Hall/CRC Big Data Series, CRC Press, Taylor & Francis Group, USA, 2017."
+        desc: "**Big Data Management, Architecture, and Processing**, Kuan-Ching Li, Hai Jiang, and Albert Zomaya, eds., Chapman & Hall/CRC Big Data Series, CRC Press, Taylor & Francis Group, USA, 2017."
         link: https://sites.google.com/site/bigdata2map/
         image: 
       - title: "FastBFS: Fast Breadth-First Graph Search on a Single Server"
@@ -150,7 +150,7 @@ timeline:
       - title: "Deep Learning and Its Parallelization"
         year: "2015"
         auth: "Xiaqing Li, **Guangyan Zhang**, Keqin Li, and Weimin Zheng"
-        desc: "Big Data: Principles and Paradigms, Rajkumar Buyya, Rodrigo N. Calheiros, and Amir Vahid Dastjerdi, eds., Morgan Kaufmann/Elsevier, 2015."
+        desc: "**Big Data: Principles and Paradigms**, Rajkumar Buyya, Rodrigo N. Calheiros, and Amir Vahid Dastjerdi, eds., Morgan Kaufmann/Elsevier, 2015."
         link: http://www.cloudbus.org/bigdata/
         image: 
       - title: "Reconsidering Single Disk Failure Recovery for Erasure Coded Storage Systems: Optimizing Load Balancing in Stack-Level"
@@ -168,7 +168,7 @@ timeline:
       - title: "Re-Stream: real-time and energy-efficient resource scheduling in big data stream computing environments"
         year: "2015"
         auth: "Dawei Sun, **Guangyan Zhang**, Songlin Yang, Weimin Zheng, Samee  Khan, and Keqin Li."
-        desc: "Information Sciences, Volume 319, Pages 92-112, October 2015."
+        desc: "**Information Sciences**, Volume 319, Pages 92-112, October 2015."
         link: http://www.sciencedirect.com/science/article/pii/S0020025515001929
         image: 
       - title: "FastRAQ: A Fast Approach to Range-Aggregate Queries in Big Data Environments"
@@ -180,7 +180,7 @@ timeline:
       - title: "Key technologies for big data stream computing"
         year: "2015"
         auth: "Dawei Sun, **Guangyan Zhang**, Weimin Zheng, and Keqin Li"
-        desc: "Big Data: Algorithms, Analytics, and Applications, Kuan-Ching Li, Hai Jiang, Laurence T. Yang, and Alfredo Cuzzocrea, eds., CRC Press, Taylor & Francis Group, 2015."
+        desc: "**Big Data: Algorithms, Analytics, and Applications**, Kuan-Ching Li, Hai Jiang, Laurence T. Yang, and Alfredo Cuzzocrea, eds., CRC Press, Taylor & Francis Group, 2015."
         link: http://www.crcpress.com/product/isbn/9781482240559
         image: 
       - title: "Redistribute Data to Regain Load Balance during RAID-4 Scaling"
@@ -210,7 +210,7 @@ timeline:
       - title: "AIP: A Tool for Flexible and Transparent Data Managemen"
         year: "2013"
         auth: "**Guangyan Zhang**, Jianping Qiu, Jiwu Shu, Weimin Zheng."
-        desc: "SCIENCE CHINA, Information Sciences, 2013, 56(5):052114(11)."
+        desc: "**SCIENCE CHINA**, Information Sciences, 2013, 56(5):052114(11)."
         link: http://link.springer.com/article/10.1007%2Fs11432-011-4466-6#
         image: 
       - title: "FastScale: Accelerate RAID Scaling by Minimizing Data Migration"
@@ -228,13 +228,13 @@ timeline:
       - title: "ALV: A New Data Redistribution Approach to RAID-5 Scaling"
         year: "2010"
         auth: "**Guangyan Zhang**, Weimin Zheng, and Jiwu Shu."
-        desc: "IEEE Transactions on Computers, Vol. 59, No. 3. pp. 345-357, March 2010."
+        desc: "**IEEE Transactions on Computers**, Vol. 59, No. 3. pp. 345-357, March 2010."
         link: http://www2.computer.org/portal/web/csdl/doi/10.1109/TC.2009.150
         image: 
       - title: "Design and Implementation of an Out-of-Band Virtualization System for Large SANs"
         year: "2007"
         auth: "**Guangyan Zhang**, Jiwu Shu, Wei Xue, and Weimin Zheng."
-        desc: "IEEE Transactions on Computers, Vol. 56, No. 12. pp. 1654-1665, Dec 2007."
+        desc: "**IEEE Transactions on Computers**, Vol. 56, No. 12. pp. 1654-1665, Dec 2007."
         link: http://doi.ieeecomputersociety.org/10.1109/TC.2007.70765
         image: 
       - title: "SLAS: An efficient approach to scaling round-robin striped volumes"
