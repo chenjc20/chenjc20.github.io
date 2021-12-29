@@ -1,7 +1,5 @@
 nav:
-  - title: "activity"
-    section: portfolio
-
+  
   - title: "RESEARCH"
     section: services
 
@@ -10,7 +8,10 @@ nav:
 
   - title: "people"
     section: team
-
+    
+  - title: "activity"
+    section: portfolio
+    
   - title: "RESOURCES"
     section: clients
 

@@ -1,8 +1,8 @@
 header:
     name: "THU FASTsys"
-    title: ""
-    text: ""
-    desc: "Our group is led by Prof.**Guangyan Zhang**.<br/>We are one of the teams in China to start working on storage systems. Our group has produced around a hundred publications on international conferences like FAST, OSDI, USENIX ATC, ASPLOS, EuroSys, VLDB, IPDPS, etc. as well as authoritative journals including IEEE TC, IEEE TPDS, ACM TOS, etc.<br/>**Welcome to join us**!"
+    title: "**Welcome to join us**!"
+    text: "Our group is led by Prof. **Guangyan Zhang**.<br/>We are one of the teams in China to start working on storage systems. Our group has produced around a hundred publications on international conferences like FAST, OSDI, USENIX ATC, ASPLOS, etc. as well as authoritative journals including IEEE TC, IEEE TPDS, ACM TOS, etc."
+    desc: 
 
 services:
     title: "Research"
