@@ -1,6 +1,7 @@
 ---
 layout: homepagepost
-title: THU FASTsys Team
+title: THU FASTsys Research Group
+ename: Shipeng Hu
 cname: 胡世鹏
 role: 博士生一年级
 img: assets/img/team/hsp.jpg

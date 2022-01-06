@@ -1,6 +1,7 @@
 ---
 layout: homepagepost
-title: THU FASTsys Team
+title: THU FASTsys Research Group
+ename: Shaobu Wang
 cname: 王少布
 role: 博士生一年级
 img: assets/img/team/wsb.jpg

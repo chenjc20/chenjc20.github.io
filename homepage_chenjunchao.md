@@ -1,8 +1,9 @@
 ---
 layout: homepagepost
-title: THU FASTsys Team
+title: THU FASTsys Research Group
+ename: Junchao Chen
 cname: 陈军超
-role: 研究生一年级
+role: 研究生二年级
 img: assets/img/team/cjc.jpg
 email: chenjc20@mails.tsinghua.edu.cn
 ---

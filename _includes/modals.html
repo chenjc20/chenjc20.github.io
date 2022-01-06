@@ -13,13 +13,15 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">{{ project.title }}</h2>
-                <p class="item-intro text-muted">{{ project.subtitle }}</p>
-                <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}">
-				<p>{{ project.content }}</p>		
+                <h2 class="text-uppercase">{{ project.caption.title }}</h2>
+                {% for new in project.news %}
+                <p class="item-intro text-muted">
+                  <h5 style="text-align:left;">{{ new.time }}</h5>
+                  <div style="text-align:left; ">{{ new.content }}</div>
+                </p>
+                {% endfor %}
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  {{ site.data.sitetext.portfolio.closebutton | default: "Close Project" }}</button>
+                  <i class="fas fa-times"></i> Close </button>
               </div>
             </div>
           </div>

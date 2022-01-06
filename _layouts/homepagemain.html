@@ -8,8 +8,12 @@ layout: homepagedefault
       <div class="cover-author-image">
         <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/{{page.img}}" alt="{{site.author}}"></a>
       </div>
-      <div class="author-name">{{page.cname}}</div>
-      <p>{{page.role}}</p>
+      <div class="author-name">{{page.ename}}</div>
+      <p class="author-cname">{{page.cname}}</p>
+      <p style="color:#158CBA; font-weight: bold;">{{page.role}}</p>
+      <p><a href="http://fastsys.cs.tsinghua.edu.cn/" class="orgnize">{{page.org3}}</a></p>
+      <p><a href="https://www.cs.tsinghua.edu.cn/" class="orgnize">{{page.org2}}</a></p>
+      <p><a href="https://www.tsinghua.edu.cn/en/index.htm" class="orgnize">{{page.org1}}</a></p>
     </div>
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
@@ -18,6 +22,7 @@ layout: homepagedefault
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright" style="text-align: center;">
+      <p>{{page.room}}</p>
       <p><a href="mailto:{{ page.email }}" style="color:black;">{{page.email}}</a></p>
     </div>
   </header> <!-- End Header -->

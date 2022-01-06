@@ -1,8 +1,9 @@
 ---
 layout: homepagepost
-title: THU FASTsys Team
+title: THU FASTsys Research Group
+ename: Yun Teng
 cname: 滕云
-role: 硕士生二年级
+role: 硕士生三年级
 img: assets/img/team/tengyun.jpg
 email: 2274933484@qq.com
 ---

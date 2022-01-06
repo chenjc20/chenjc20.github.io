@@ -1,8 +1,9 @@
 ---
 layout: homepagepost
-title: THU FASTsys Team
+title: THU FASTsys Research Group
+ename: Junyu Wei
 cname: 魏钧宇
-role: 博士生二年级
+role: 博士生三年级
 img: assets/img/team/wjy.png
 email: thuweijy@vip.163.com
 ---

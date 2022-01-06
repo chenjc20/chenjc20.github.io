@@ -1,8 +1,9 @@
 ---
 layout: homepagepost
-title: THU FASTsys Team
+title: THU FASTsys Research Group
+ename: Xiao Niu
 cname: 牛骁
-role: 本科四年级
+role: 硕士一年级
 img: assets/img/team/niuxiao.jpg
 email: nx17@mails.tsinghua.edu.cn
 ---

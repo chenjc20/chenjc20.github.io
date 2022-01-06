@@ -1,7 +1,8 @@
 ---
 layout: homepagepost
-title: THU FASTsys Team
-cname: Tianyang Jiang (姜天洋)
+title: THU FASTsys Research Group
+ename: Tianyang Jiang
+cname: 姜天洋
 role: the 4th-year PhD student
 img: assets/img/team/jty.jpg
 email: jty1313@126.com

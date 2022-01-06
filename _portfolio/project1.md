@@ -1,10 +1,22 @@
 ---
 caption:
-  title: Joining FAST'21 meeting
+  title: News
   subtitle: 
-  thumbnail: assets/img/portfolio/2.jpg
+  thumbnail: 
   time: "2020-12-09"
 
-image: assets/img/portfolio/2.jpg
+image: 
+
+news:
+  - time: "2021-12-11"
+    content: One paper has been accepted to FAST'22, congrats to Tianyang Jiang.
+    top: 1
+  - time: "2020-12-10"
+    content: One paper has been accepted to FAST'21, congrats to Junyu Wei.
+    top: 1
+  - time: "2020-12-10"
+    content: One paper has been accepted to FAST'21, congrats to Tianyang Jiang.
+    top: 1
+  
 
 ---

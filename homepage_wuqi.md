@@ -1,8 +1,9 @@
 ---
 layout: homepagepost
-title: THU FASTsys Team
+title: THU FASTsys Research Group
+ename: Qi Wu
 cname: 吴旗
-role: 硕士二年级
+role: 硕士三年级
 img: assets/img/team/wuq1.jpg
 email: 907721660@qq.com
 
