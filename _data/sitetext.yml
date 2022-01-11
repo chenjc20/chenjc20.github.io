@@ -251,8 +251,8 @@ about:
 
 clients:
     title: "Resources"
-    text: "The top conferences in his concern"
-    subtext: "The top journals in his concern"
+    text: "The top conferences in our concern"
+    subtext: "The top journals in our concern"
     section: clients
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
