@@ -45,6 +45,12 @@ timeline:
     text: "Selected publications include:"
     section: timeline
     events:
+      - title: "Aurogon: Taming Aborts in All Phases for Distributed In-Memory Transactions"
+        year: "2022"
+        auth: "Tianyang Jiang, **Guangyan Zhang**, Zhiyue Li, and Weimin Zheng."
+        desc: "In the Proceedings of the 20th USENIX Conference on File and Storage Technologies(**FAST'22**), Santa Clara, CA, February 2022. Pages 217-232."
+        link: https://www.usenix.org/conference/fast22/presentation/jiang
+        image: 
       - title: "FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays"
         year: "2021"
         auth: "Tianyang Jiang, **Guangyan Zhang**, Zican Huang, Xiaosong Ma, Junyu Wei, Zhiyue Li, Weimin Zheng."
