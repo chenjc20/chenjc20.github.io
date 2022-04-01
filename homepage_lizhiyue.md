@@ -23,6 +23,9 @@ email: sldjlzy@163.com
 
 * ***[FAST]*** Tianyang Jiang, Guangyan Zhang, Zican Huang, Xiaosong Ma, Junyu Wei, **Zhiyue Li**, Weimin Zheng. FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays. in the Proceedings of the 19th USENIX Conference on File and Storage Technologies *(FAST'21)*, Santa Clara, CA, February 2021. Pages 355-370.
 
+
+* ***[FITEE]*** Yun Teng, **Zhiyue Li**, Jing Huang, Guangyan Zhang. ShortTail: Taming Tail Latency for Erasure-code Based In-memory Systems. Frontiers of Information Technology & Electronic Engineering.
+
 **获奖情况**
 * 2017.09 国家奖学金
 * 2020.09 北航校优秀生

@@ -21,6 +21,10 @@ email: 2274933484@qq.com
 **研究项目**
 * 宽列纠删码的尾延迟优化
 
+**发表论文**
+
+* ***[FITEE]*** **Yun Teng**, Zhiyue Li, Jing Huang, Guangyan Zhang. ShortTail: Taming Tail Latency for Erasure-code Based In-memory Systems. Frontiers of Information Technology & Electronic Engineering.
+
 
 **获奖情况**
 * 2017.09 ACM-ICPC铜奖2项

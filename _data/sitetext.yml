@@ -45,6 +45,12 @@ timeline:
     text: "Selected publications include:"
     section: timeline
     events:
+    - title: "ShortTail: Taming Tail Latency for Erasure-code Based In-memory Systems"
+        year: "2022"
+        auth: "Yun Teng, Zhiyue Li, Jing Huang, **Guangyan Zhang**."
+        desc: "Frontiers of Information Technology & Electronic Engineering"
+        link: 
+        image: 
       - title: "Aurogon: Taming Aborts in All Phases for Distributed In-Memory Transactions"
         year: "2022"
         auth: "Tianyang Jiang, **Guangyan Zhang**, Zhiyue Li, and Weimin Zheng."
@@ -135,12 +141,12 @@ timeline:
         desc: "In the Proceedings of the 45th International Conference on Parallel Processing (** ICPP-2016**), Philadelphia, PA USA, August 2016."
         link: http://icpp2016.cs.wcupa.edu/programSessions.html
         image: 
-      - title: "Large graph computing systems"
-        year: "2017"
-        auth: "Chengwen Wu,**Guangyan Zhang**, Keqin Li, and Weimin Zheng"
-        desc: "**Big Data Management, Architecture, and Processing**, Kuan-Ching Li, Hai Jiang, and Albert Zomaya, eds., Chapman & Hall/CRC Big Data Series, CRC Press, Taylor & Francis Group, USA, 2017."
-        link: https://sites.google.com/site/bigdata2map/
-        image: 
+      # - title: "Large graph computing systems"
+      #   year: "2017"
+      #   auth: "Chengwen Wu,**Guangyan Zhang**, Keqin Li, and Weimin Zheng"
+      #   desc: "**Big Data Management, Architecture, and Processing**, Kuan-Ching Li, Hai Jiang, and Albert Zomaya, eds., Chapman & Hall/CRC Big Data Series, CRC Press, Taylor & Francis Group, USA, 2017."
+      #   link: https://sites.google.com/site/bigdata2map/
+      #   image: 
       - title: "FastBFS: Fast Breadth-First Graph Search on a Single Server"
         year: "2016"
         auth: "Shuhan Cheng, **Guangyan Zhang**, Jiwu Shu, Qingda Hu, and Weimin Zheng."
@@ -153,12 +159,12 @@ timeline:
         desc: "**Journal of Emerging Technologies in Computing Systems**, Volume 12, Issue 4, Article No. 33, May 2016."
         link: http://dl.acm.org/citation.cfm?id=2893186
         image: 
-      - title: "Deep Learning and Its Parallelization"
-        year: "2015"
-        auth: "Xiaqing Li, **Guangyan Zhang**, Keqin Li, and Weimin Zheng"
-        desc: "**Big Data: Principles and Paradigms**, Rajkumar Buyya, Rodrigo N. Calheiros, and Amir Vahid Dastjerdi, eds., Morgan Kaufmann/Elsevier, 2015."
-        link: http://www.cloudbus.org/bigdata/
-        image: 
+      # - title: "Deep Learning and Its Parallelization"
+      #   year: "2015"
+      #   auth: "Xiaqing Li, **Guangyan Zhang**, Keqin Li, and Weimin Zheng"
+      #   desc: "**Big Data: Principles and Paradigms**, Rajkumar Buyya, Rodrigo N. Calheiros, and Amir Vahid Dastjerdi, eds., Morgan Kaufmann/Elsevier, 2015."
+      #   link: http://www.cloudbus.org/bigdata/
+      #   image: 
       - title: "Reconsidering Single Disk Failure Recovery for Erasure Coded Storage Systems: Optimizing Load Balancing in Stack-Level"
         year: "2016"
         auth: "Yingxun Fu, Jiwu Shu, Zhirong Shen, and **Guangyan Zhang**."
@@ -183,12 +189,12 @@ timeline:
         desc: "**IEEE Transactions on Cloud Computing**,Volume: 3, Issue: 2, Page(s): 206-218. July 2015."
         link: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6868272
         image: 
-      - title: "Key technologies for big data stream computing"
-        year: "2015"
-        auth: "Dawei Sun, **Guangyan Zhang**, Weimin Zheng, and Keqin Li"
-        desc: "**Big Data: Algorithms, Analytics, and Applications**, Kuan-Ching Li, Hai Jiang, Laurence T. Yang, and Alfredo Cuzzocrea, eds., CRC Press, Taylor & Francis Group, 2015."
-        link: http://www.crcpress.com/product/isbn/9781482240559
-        image: 
+      # - title: "Key technologies for big data stream computing"
+      #   year: "2015"
+      #   auth: "Dawei Sun, **Guangyan Zhang**, Weimin Zheng, and Keqin Li"
+      #   desc: "**Big Data: Algorithms, Analytics, and Applications**, Kuan-Ching Li, Hai Jiang, Laurence T. Yang, and Alfredo Cuzzocrea, eds., CRC Press, Taylor & Francis Group, 2015."
+      #   link: http://www.crcpress.com/product/isbn/9781482240559
+      #   image: 
       - title: "Redistribute Data to Regain Load Balance during RAID-4 Scaling"
         year: "2015"
         auth: "**Guangyan Zhang**, Jigang Wang, Keqin Li, Jiwu Shu, and Weimin Zheng"
