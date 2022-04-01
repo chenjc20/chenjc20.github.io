@@ -45,7 +45,7 @@ timeline:
     text: "Selected publications include:"
     section: timeline
     events:
-    - title: "ShortTail: Taming Tail Latency for Erasure-code Based In-memory Systems"
+      - title: "ShortTail: Taming Tail Latency for Erasure-code Based In-memory Systems"
         year: "2022"
         auth: "Yun Teng, Zhiyue Li, Jing Huang, **Guangyan Zhang**."
         desc: "Frontiers of Information Technology & Electronic Engineering"
