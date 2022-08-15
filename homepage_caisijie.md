@@ -4,7 +4,7 @@ title: THU FASTsys Research Group
 ename: Clide Cai
 cname: 蔡思捷
 role: 博士生一年级
-img: assets/img/team/
+img: assets/img/team/csj.jpg
 email: csj22@mails.tsinghua.edu.cn
 ---
 **个人简介**
