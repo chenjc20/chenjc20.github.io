@@ -21,4 +21,5 @@ email: chenjc20@mails.tsinghua.edu.cn
 **研究项目**
 
 **发表论文**
+* ***[EuroSys]*** Junyu Wei, Guangyan Zhang, **Junchao Chen**, Yang Wang, Weimin Zheng, Tingtao Sun, Jiesheng Wu, Jiangwei Jiang. LogGrep: Fast and Cheap Cloud Log Storage by Exploiting both Static and Runtime Patterns. in the Proceedings of the 18th European Conference on Computer Systems *(EuroSys'23)*, Roma, Italy, May 2023.
 * ***[FAST]*** Junyu Wei, Guangyan Zhang, Yang Wang, Zhiwei Liu, Zhanyang Zhu, **Junchao Chen**, Tingtao Sun, Qi Zhou. On the Feasibility of Parser-based Log Compression in Large-Scale Cloud Systems. in the Proceedings of the 19th USENIX Conference on File and Storage Technologies *(FAST'21)*, Santa Clara, CA, February 2021. Pages 249-262.

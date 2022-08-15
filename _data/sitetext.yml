@@ -1,7 +1,7 @@
 header:
     name: "THU FASTsys"
     title: "**Welcome to join us**!"
-    text: "Our group is led by Prof. **Guangyan Zhang**.<br/>We are one of the teams in China to start working on storage systems. Our group has produced around a hundred publications on international conferences like FAST, OSDI, USENIX ATC, ASPLOS, etc. as well as authoritative journals including IEEE TC, IEEE TPDS, ACM TOS, etc."
+    text: "Our group is led by Prof. **Guangyan Zhang**.<br/>We are one of the teams in China to start working on storage systems. Our group has produced around a hundred publications on international conferences like FAST, USENIX ATC, EuroSys, etc. as well as authoritative journals including IEEE TC, IEEE TPDS, ACM TOS, etc."
     desc: 
 
 services:
@@ -10,28 +10,28 @@ services:
     section: services
     list:
       - title: "Cloud Storage"
-        desc: "- Boafft: Distributed Deduplication for Big Data Storage in the Cloud.[link](http://doi.ieeecomputersociety.org/10.1109/TCC.2015.2511752)"
+        desc: "- Boafft: Distributed Deduplication for Big Data Storage in the Cloud.[**link**](http://doi.ieeecomputersociety.org/10.1109/TCC.2015.2511752)"
         icon: assets/img/research/cloud_storage.png
       - title: "RAID and Erasure Codes"
-        desc: "- RAID+: Deterministic and Balanced Data Distribution for Large Disk Enclosures.[link](https://www.usenix.org/conference/fast18/presentation/zhang)"
+        desc: "- RAID+: Deterministic and Balanced Data Distribution for Large Disk Enclosures.[**link**](https://www.usenix.org/conference/fast18/presentation/zhang)"
         icon: assets/img/research/cloud_storage.png
       - title: "Flash and PCM Storage"
-        desc: "FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays.[link](https://www.usenix.org/conference/fast21/presentation/jiang)"
+        desc: "FusionRAID: Achieving Consistent Low Latency for Commodity SSD Arrays.[**link**](https://www.usenix.org/conference/fast21/presentation/jiang)"
         icon: assets/img/research/cloud_storage.png
       - title: "Storage Virtualization"
-        desc: "- Design and Implementation of an Out-of-Band Virtualization System for Large SANs.[link](http://doi.ieeecomputersociety.org/10.1109/TC.2007.70765)"
+        desc: "- Design and Implementation of an Out-of-Band Virtualization System for Large SANs.[**link**](http://doi.ieeecomputersociety.org/10.1109/TC.2007.70765)"
         icon: assets/img/research/cloud_storage.png
       - title: "Distributed File Systems"
-        desc: "- Determining Data Distribution for Large Disk Enclosures with 3-D Data Templates.[link](https://dl.acm.org/citation.cfm?id=3342858)"
+        desc: "- Determining Data Distribution for Large Disk Enclosures with 3-D Data Templates.[**link**](https://dl.acm.org/citation.cfm?id=3342858)"
         icon: assets/img/research/cloud_storage.png
       - title: "Deep Learning"
-        desc: "- Performance Analysis of GPU-based Convolutional Neural Networks.[link](http://icpp2016.cs.wcupa.edu/programSessions.html)"
+        desc: "- Performance Analysis of GPU-based Convolutional Neural Networks.[**link**](http://icpp2016.cs.wcupa.edu/programSessions.html)"
         icon: assets/img/research/cloud_storage.png
       - title: "Graph Computing"
-        desc: "- Large graph computing systems.[link](https://sites.google.com/site/bigdata2map/)"
+        desc: "- Large graph computing systems.[**link**](https://sites.google.com/site/bigdata2map/)"
         icon: assets/img/research/cloud_storage.png
       - title: "Stream Computing"
-        desc: "- Building a Fault Tolerant Framework with Deadline Guarantee in Big Data Stream Computing Environments.[link](http://dx.doi.org/10.1016/j.jcss.2016.10.010)"
+        desc: "- Building a Fault Tolerant Framework with Deadline Guarantee in Big Data Stream Computing Environments.[**link**](http://dx.doi.org/10.1016/j.jcss.2016.10.010)"
         icon: assets/img/research/cloud_storage.png
 portfolio:
     title: "activity"
@@ -45,6 +45,12 @@ timeline:
     text: "Selected publications include:"
     section: timeline
     events:
+      - title: "LogGrep: Fast and Cheap Cloud Log Storage by Exploiting both Static and Runtime Patterns"
+        year: "2022"
+        auth: "Junyu Wei, **Guangyan Zhang**, Junchao Chen, Yang Wang, Weimin Zheng, Tingtao Sun, Jiesheng Wu, Jiangwei Jiang."
+        desc: "In the Proceedings of the 18th European Conference on Computer Systems (**EuroSys'23**), Roma, Italy, May 2023."
+        link: 
+        image: 
       - title: "ShortTail: Taming Tail Latency for Erasure-code Based In-memory Systems"
         year: "2022"
         auth: "Yun Teng, Zhiyue Li, Jing Huang, **Guangyan Zhang**."
@@ -322,10 +328,6 @@ team:
         role: "Master"
         image: assets/img/team/cjc.jpg
         link: homepage_chenjunchao
-      - name: "Qi Wu"
-        role: "Master"
-        link: homepage_wuqi
-        image: assets/img/team/wuqi.jpg
       - name: "Yun Teng"
         role: "Master"
         link: homepage_tengyun
@@ -358,6 +360,8 @@ team:
       - name: "Chengwen Wu"
         role: "Master"
       - name: "Hanyu He"
+        role: "Master"
+      - name: "Qi Wu"
         role: "Master"
     
 footer:

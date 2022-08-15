@@ -14,8 +14,8 @@
         <div class="carousel-inner">
             {%  for image in project.images %}
                 <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                    <img src="{{ image.image }}" class="d-block w-100" alt="">
                     <div class="portfolio-caption">
+                      <img src="{{ image.image }}" class="d-block w-100" alt="">
                       <p class="text-muted">{{ image.remark }}</p>
                     </div>
                 </div>
@@ -32,12 +32,12 @@
       </div>
       {% else %}  
       <div class="col-md-6 col-sm-6 portfolio-item">
-        <div class="portfolio-caption" style="background-color:lightgray;">
+        <div class="portfolio-caption">
           <h5 style="color:#158CBA; font-weight: bold;">{{ project.caption.title }}</h5>
           {% for new in project.news %}
             {% if new.top == 1 %}
-            <p style="font-weight: bold; text-align: left;">· {{ new.time }}</p>
-            <p style="text-align: left;"> {{ new.content }}</p>
+              <p style="font-weight: bold; text-align: left;">· {{ new.time }}</p>
+              <div class="portfolio-link-div" style="text-align: left;"> {{ new.content | markdownify}} </div>
             {% endif %}
           {% endfor %}
           <h6 style="font-weight: bold; text-align: right;">

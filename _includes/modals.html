@@ -17,7 +17,7 @@
                 {% for new in project.news %}
                 <p class="item-intro text-muted">
                   <h5 style="text-align:left;">{{ new.time }}</h5>
-                  <div style="text-align:left; ">{{ new.content }}</div>
+                  <div style="text-align:left; ">{{ new.content | markdownify }}</div>
                 </p>
                 {% endfor %}
                 <button class="btn btn-primary" data-dismiss="modal" type="button">

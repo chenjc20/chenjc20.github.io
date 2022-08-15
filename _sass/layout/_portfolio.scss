@@ -9,6 +9,7 @@
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
+      color:#0094DE;
       .portfolio-hover {
         position: absolute;
         width: 100%;
@@ -45,7 +46,9 @@
       margin: 0 auto;
       padding: 25px;
       text-align: center;
-      background-color: $white;
+      background-color: #fafafa;
+      border: 1px solid #e8e8e8;
+      border-radius: 6px;
       h4 {
         margin: 0;
         text-transform: none;
@@ -55,6 +58,13 @@
         font-style: italic;
         margin: 0;
         @include serif-font;
+      }
+    }
+
+    .portfolio-link-div{
+      a:link {
+        color: #0094DE;
+        text-decoration: none;
       }
     }
   }
