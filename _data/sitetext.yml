@@ -344,6 +344,18 @@ team:
         role: "Master"
         link: homepage_nx
         image: assets/img/team/niuxiao.jpg
+      - name: "Sijie Cai"
+        role: "Ph.D."
+        link: homepage_caisijie
+        image: assets/img/team/csj.jpg
+      - name: "Xinyuan Zhu"
+        role: "Ph.D."
+        link: homepage_zhuxinyuan
+        image: assets/img/team/zxy.jpg
+      - name: "Maomao Wang"
+        role: "Master"
+        link: homepage_wangmaomao
+        image: assets/img/team/wmm.jpg
     alumnis:
       - name: "Zican Huang"
         role: "Master"
